@@ -1,0 +1,33 @@
+{% block master_page %}
+	<head>
+		<title>  
+			{% block page_title %}
+				Default page title
+			{% endblock page_title %}
+		</title>
+		
+		{% block header_content %}
+		
+		{% endblock header_content %}
+	</head>
+	
+	<body>
+		<h1>
+			{% block heading %} 	
+				Default heading!
+			{% endblock heading %} 
+		</h1>
+		
+		<p> The following were all processed using the django templating system.. </p>
+		
+		<hr />
+		
+		{% block test_body %}
+			This is where our test content will be shown
+		{% endblock test_body %}
+		
+		<hr />
+		
+		<p> This template can otherwise contain valid html/css/js </p>
+	</body>
+{% endblock master_page %}

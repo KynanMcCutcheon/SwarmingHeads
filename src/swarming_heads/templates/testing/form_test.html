@@ -1,0 +1,17 @@
+{% extends "testing/master_template.html" %}
+
+{% block page_title %}
+	Form Test
+{% endblock page_title %}
+
+{% block heading %} 	
+	Django Form handling Test!
+{% endblock heading %}
+
+{% block test_body %}
+	<form action="set_username/" method="post">
+		{% csrf_token %}
+		Hello, user {{ user_id }}. What is your name? <input type="text" name="user_name">
+		<input type="submit" value="Submit" />
+	</form>
+{% endblock test_body %}
