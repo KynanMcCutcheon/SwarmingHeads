@@ -8,6 +8,10 @@
 	Django Form handling Test!
 {% endblock heading %}
 
+{% block page_description %}
+	This page demonstrates how Django can interact with HTML forms
+{% endblock page_description %}
+
 {% block test_body %}
 	<form action="set_username/" method="post">
 		{% csrf_token %}

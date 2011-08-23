@@ -30,6 +30,11 @@
 	Django Ajax Test!
 {% endblock heading %}
 
+{% block page_description %}
+	This page will send some information to the server, and then get a response,
+	all asynchronously without reloading the current page	
+{% endblock page_description %}
+
 {% block test_body %}
 	<p>Hello user {{ user_id }}, what is your name?</p>
 
