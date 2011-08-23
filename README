@@ -1,0 +1,11 @@
+This is a web interface for the thinkingheads robotics project.
+
+Github is being used as temporary storage until the client's svn server can be used.
+
+To run the project, simply import the project into Eclipse (assuming the PyDev plugin is already installed).
+
+The project has been marked as a 'django' project, so simply pressing 'run' in Eclipse should start up the server.
+
+Start up your favourite web browser (chrome :D) and browse to http://127.0.0.1:8000
+
+Note that you can see Django's output in the Eclipse console
