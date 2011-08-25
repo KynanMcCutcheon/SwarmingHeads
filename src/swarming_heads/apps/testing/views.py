@@ -1,9 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
-from django.template.context import RequestContext, Context
-from django.template.loader import get_template
-from swarming_heads.settings import STATIC_URL
-import settings
+from django.template.context import RequestContext
+import sys
+import xmlrpclib
 
 # Some sample views
 # Each is a simple, valid python function
@@ -75,8 +74,27 @@ def xhr(request):
     handle an XMLHttpRequest
     """
     # see what message has been sent
-    message = request.GET["message"]
-    # for now, let's just print the message
-    print message
+    print "GETDATA: ", request.GET
+    if request.GET.has_key('message'):
+        message = request.GET['message']
+    else:
+        message = 'COULDNT GET MESSAGE'
+    
+    print 'I made it here with message =', message
+    
+    # send the message across
+    proxy = xmlrpclib.ServerProxy("http://127.0.0.1:8045")
 
-    return HttpResponse("OK")    
+    print 'Then i made it here'
+
+    # push the data to all clients.
+    try:
+        
+        proxy.transmit("/topic/shouts", message)
+    except xmlrpclib.Fault as e:
+        print 'ERROR ERROR:', e
+
+    print 'Woo here to!'
+
+    # That's it, thread's not locked
+    return HttpResponse("OK")
