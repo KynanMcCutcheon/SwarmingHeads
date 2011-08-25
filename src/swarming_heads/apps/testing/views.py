@@ -1,6 +1,9 @@
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
-from django.template.context import RequestContext
+from django.template.context import RequestContext, Context
+from django.template.loader import get_template
+from swarming_heads.settings import STATIC_URL
+import settings
 
 # Some sample views
 # Each is a simple, valid python function
@@ -61,6 +64,19 @@ def dynamic_test(request, user_id):
         
     return render_to_response(template_file, mappings, 
                               context_instance=RequestContext(request))
+
+
+def comet_test(request):
+    template_file = 'testing/comet_test.html'
+    return render_to_response(template_file,{}, context_instance=RequestContext(request))
     
-    
-    
+def xhr(request):
+    """
+    handle an XMLHttpRequest
+    """
+    # see what message has been sent
+    message = request.GET["message"]
+    # for now, let's just print the message
+    print message
+
+    return HttpResponse("OK")    

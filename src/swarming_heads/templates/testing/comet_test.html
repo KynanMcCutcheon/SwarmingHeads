@@ -1,0 +1,84 @@
+<title>ShoutBox</title>
+<script>
+    document.domain = document.domain; // I don't know why
+    // we need to do this, but we just need to
+</script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/Orbited.js"></script>
+<script>
+    // set the orbited settings and port
+    Orbited.settings.port = 9000;
+    Orbited.settings.hostname = "localhost";
+    //Orbited.settings.streaming = false;
+    TCPSocket = Orbited.TCPSocket;
+</script>
+
+<script src="{{ STATIC_URL }}js/protocols/stomp/stomp.js"></script>
+
+<script type="text/javascript"
+	src="{{ STATIC_URL }}js/jquery-1.6.2.min.js"
+></script>
+
+<script>
+    var add_message = function(payload){
+        var message1 = payload.toString();
+        message_div = document.createElement("div");
+        message_div.innerHTML = message1;
+        document.getElementById("messages").appendChild(message_div);
+    };
+
+	// execute once the document is ready
+    $(document).ready(function(){
+        stomp = new STOMPClient();
+        stomp.onopen = function(){
+            //console.log("opening stomp client");
+        };
+        stomp.onclose = function(c){
+            alert('Lost Connection, Code: ' + c);
+        };
+        stomp.onerror = function(error){
+            alert("Error: " + error);
+        };
+        stomp.onerrorframe = function(frame){
+            alert("Error: " + frame.body);
+        };
+        stomp.onconnectedframe = function(){
+            //console.log("Connected. Subscribing");
+            //alert("subscribing");
+            stomp.subscribe("/topic/shouts");
+        };
+        stomp.onmessageframe = function(frame){
+            // Presumably we should only receive message frames with the
+            // destination "/topic/shouts" because that's the only destination
+            // to which we've subscribed. To handle multiple destinations we
+            // would have to check frame.headers.destination.
+            add_message(frame.body);
+        };
+        
+        stomp.connect('127.0.0.1', 61613);
+        
+        $('#send_shout').click(function(){
+    		// send an XMLHttpRequest to /xhr
+    		var message_text = document.getElementById('shout_text').value;
+
+    		$.ajax({
+    			type:'GET',
+    			url:'http://127.0.0.1:8000/test/comet_test/xhr/',
+    			data:{
+    			'message':message_text,
+    			},
+    		});
+    	});
+    });
+	
+
+</script>
+<body>
+	<div id="shoutbox">
+		{% csrf_token %}
+		<input type="text" id="shout_text" /><br />
+		<div id="send_shout_div">
+			<button id="send_shout">Shout it</button>
+		</div>
+	</div>
+	<div id="messages"></div>
+</body>
