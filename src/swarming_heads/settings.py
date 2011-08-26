@@ -1,5 +1,6 @@
 # Django settings for swarming_heads project.
 
+import logging
 import os
 
 # Keep all references relative to this file
@@ -7,6 +8,15 @@ SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
+
+LOG_LEVEL = logging.DEBUG
+LOG_FILE = 'swarming_heads.log'
+
+RPC_SERVER_HOST = '127.0.0.1'
+RPC_SERVER_PORT = 8045
+
+ORBITED_HOST = '127.0.0.1'
+ORBITED_PORT = 61613
 
 # May not be needed?
 ADMINS = (

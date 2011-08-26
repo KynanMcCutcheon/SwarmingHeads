@@ -1,6 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
+from swarming_heads.settings import RPC_SERVER_HOST, RPC_SERVER_PORT
+import logging
 import sys
 import xmlrpclib
 
@@ -74,27 +76,20 @@ def xhr(request):
     handle an XMLHttpRequest
     """
     # see what message has been sent
-    print "GETDATA: ", request.GET
+
     if request.GET.has_key('message'):
         message = request.GET['message']
     else:
-        message = 'COULDNT GET MESSAGE'
-    
-    print 'I made it here with message =', message
+        logging.warning('Couldnt find message value in GET request')
     
     # send the message across
-    proxy = xmlrpclib.ServerProxy("http://127.0.0.1:8045")
-
-    print 'Then i made it here'
+    proxy = xmlrpclib.ServerProxy('http://' + RPC_SERVER_HOST + ':' + str(RPC_SERVER_PORT))
 
     # push the data to all clients.
     try:
-        
         proxy.transmit("/topic/shouts", message)
     except xmlrpclib.Fault as e:
-        print 'ERROR ERROR:', e
-
-    print 'Woo here to!'
+        logging.error('Error transmitting message: ' + e)
 
     # That's it, thread's not locked
     return HttpResponse("OK")
