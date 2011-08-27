@@ -5,7 +5,7 @@ Created on Aug 21, 2011
 '''
 
 from EventMessage import EventMessage
-from swarming_heads.apps.testing.Comet import Comet
+from swarming_heads.apps.testing.CometComponents import Comet
 from threading import Thread
 import logging
 import socket

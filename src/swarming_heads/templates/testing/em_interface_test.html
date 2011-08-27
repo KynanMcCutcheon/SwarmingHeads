@@ -40,8 +40,6 @@
             alert("Error: " + frame.body);
         };
         stomp.onconnectedframe = function(){
-            //console.log("Connected. Subscribing");
-            //alert("subscribing");
             stomp.subscribe("/topic/shouts");
         };
         stomp.onmessageframe = function(frame){
