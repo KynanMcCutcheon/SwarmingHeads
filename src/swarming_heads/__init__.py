@@ -11,14 +11,13 @@ import sys
 
 #Setup logging for the application
 try:
-    logging.basicConfig(filename=LOG_FILE, level=LOG_LEVEL, format='%(asctime)s - %(levelname)s - %(message)s')
+    logging.basicConfig(filename=LOG_FILE, level=LOG_LEVEL, format='[%(asctime)s/%(levelname)s/%(message)s]')
     logging.info('Logging started')
 except:
     sys.stderr.write('Error setting up logging: ' + str(sys.exc_info()[1]) + ' . Logging may not work\n')
 
 #Setup the comet server components
 try:
-    
     logging.info('Starting comet server')
 
     c = Comet()    
@@ -44,3 +43,14 @@ except:
     logging.critical('Error connecting to event manager: ' + str(sys.exc_info()[1]) + '. Exiting..')
     Util.clean_exit(1)
     
+# Set up various signal handlers to safely exit the server
+def handler_sigterm(signum, frame):
+    logging.warning("Got a sigterm. Attemping clean exit")
+    Util.clean_exit(1)
+
+def handler_sigint(signum, frame):
+    logging.warning("Got a sigint. Attemping clean exit")
+    Util.clean_exit(1)
+    
+signal.signal(signal.SIGTERM, handler_sigterm)
+signal.signal(signal.SIGINT, handler_sigint)

@@ -9,11 +9,11 @@ from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from swarming_heads import EM_INTERFACE
+from swarming_heads.apps.testing.CometComponents import Comet
 from swarming_heads.eminterface.EventMessage import EventMessage
 from swarming_heads.settings import STOMP_HOST, STOMP_PORT, ORBITED_HOST, \
     ORBITED_PORT
 import logging
-import sys
 
 def em_test(request):
     template_file = 'testing/em_interface_test.html' 
@@ -34,6 +34,6 @@ def send_message(request):
     
     if not success:
         # Send error message to client!
-        pass
+        Comet.push_message('Error sending message: ' + err_msg)
     else:
         return HttpResponse("OK")
