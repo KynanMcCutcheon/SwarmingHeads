@@ -16,6 +16,14 @@ from swarming_heads.settings import STOMP_HOST, STOMP_PORT, ORBITED_HOST, \
 import logging
 
 def em_test(request):
+    #We are viewing the em page.. make sure we are connected
+    #Note.. we may want to do this in a bg thread and show the user
+    #some kind of dialog
+    if not EM_INTERFACE.is_connected:
+        success, err_msg = EM_INTERFACE.connect()
+        if not success:
+            Comet.push_message('Error connecting to event manager: ' + err_msg)
+    
     template_file = 'testing/em_interface_test.html' 
     mappings = {'stomp_host' :   STOMP_HOST,
                 'stomp_port' :   STOMP_PORT,
@@ -29,12 +37,7 @@ def send_message(request):
         message = request.GET['message']
     else:
         logging.warning('Couldnt find message value in GET request')
-    
-    if not EM_INTERFACE.is_connected:
-        success, err_msg = EM_INTERFACE.connect()
-        if not success:
-            raise Exception(err_msg)
-    
+
     success, err_msg = EM_INTERFACE.send_message(EventMessage.fromString('EV:EVENT EN:ANSWER_THIS NM:tux EC:*' + message + '* TC:client1'))
     
     if not success:

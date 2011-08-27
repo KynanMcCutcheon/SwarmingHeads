@@ -7,6 +7,7 @@ import os
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 
 DEBUG = True
+
 TEMPLATE_DEBUG = DEBUG
 
 LOG_LEVEL = logging.DEBUG
