@@ -30,6 +30,11 @@ def send_message(request):
     else:
         logging.warning('Couldnt find message value in GET request')
     
+    if not EM_INTERFACE.is_connected:
+        success, err_msg = EM_INTERFACE.connect()
+        if not success:
+            raise Exception(err_msg)
+    
     success, err_msg = EM_INTERFACE.send_message(EventMessage.fromString('EV:EVENT EN:ANSWER_THIS NM:tux EC:*' + message + '* TC:client1'))
     
     if not success:

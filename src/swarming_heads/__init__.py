@@ -35,12 +35,8 @@ try:
     config = Configuration(EM_CONFIG_FILE);
     config.load()  
     EM_INTERFACE = ClientConnection(config)
-    
-    success, err_msg = EM_INTERFACE.connect()
-    if not success:
-        raise Exception(err_msg)
 except:
-    logging.critical('Error connecting to event manager: ' + str(sys.exc_info()[1]) + '. Exiting..')
+    logging.critical('Error creating event manager interface: ' + str(sys.exc_info()[1]) + '. Exiting..')
     Util.clean_exit(1)
     
 # Set up various signal handlers to safely exit the server
