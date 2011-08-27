@@ -1859,3 +1859,1450 @@
 2011-08-27 10:17:54,321,321 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=27
 2011-08-27 10:17:54,321,321 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 27)]
 2011-08-27 10:17:54,321,321 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:17:59,286,286 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=25
+2011-08-27 10:17:59,312,312 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337030>
+2011-08-27 10:17:59,313,313 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=25
+2011-08-27 10:17:59,313,313 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 25)]
+2011-08-27 10:17:59,313,313 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:17:59,319,319 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023327D0> packetId=28
+2011-08-27 10:17:59,348,348 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233DAD0>
+2011-08-27 10:17:59,348,348 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=28
+2011-08-27 10:17:59,348,348 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023327D0>, 28)]
+2011-08-27 10:17:59,348,348 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:04,312,312 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=26
+2011-08-27 10:18:04,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233D6C0>
+2011-08-27 10:18:04,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=26
+2011-08-27 10:18:04,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 26)]
+2011-08-27 10:18:04,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:04,348,348 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=29
+2011-08-27 10:18:04,378,378 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233DAA8>
+2011-08-27 10:18:04,378,378 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=29
+2011-08-27 10:18:04,378,378 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 29)]
+2011-08-27 10:18:04,380,380 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:09,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=27
+2011-08-27 10:18:09,371,371 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233DE18>
+2011-08-27 10:18:09,371,371 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=27
+2011-08-27 10:18:09,371,371 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 27)]
+2011-08-27 10:18:09,371,371 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:09,378,378 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023329B0> packetId=30
+2011-08-27 10:18:09,407,407 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D238>
+2011-08-27 10:18:09,407,407 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=30
+2011-08-27 10:18:09,407,407 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023329B0>, 30)]
+2011-08-27 10:18:09,407,407 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:14,371,371 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=28
+2011-08-27 10:18:14,401,401 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233D710>
+2011-08-27 10:18:14,401,401 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=28
+2011-08-27 10:18:14,401,401 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 28)]
+2011-08-27 10:18:14,401,401 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:14,407,407 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=31
+2011-08-27 10:18:14,437,437 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D2B0>
+2011-08-27 10:18:14,437,437 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=31
+2011-08-27 10:18:14,438,438 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 31)]
+2011-08-27 10:18:14,438,438 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:19,401,401 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=29
+2011-08-27 10:18:19,430,430 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D8F0>
+2011-08-27 10:18:19,430,430 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=29
+2011-08-27 10:18:19,430,430 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 29)]
+2011-08-27 10:18:19,430,430 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:19,437,437 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332FD0> packetId=32
+2011-08-27 10:18:19,467,467 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D530>
+2011-08-27 10:18:19,467,467 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=32
+2011-08-27 10:18:19,467,467 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332FD0>, 32)]
+2011-08-27 10:18:19,469,469 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:24,430,430 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=30
+2011-08-27 10:18:24,460,460 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D2D8>
+2011-08-27 10:18:24,460,460 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=30
+2011-08-27 10:18:24,460,460 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 30)]
+2011-08-27 10:18:24,460,460 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:24,467,467 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=33
+2011-08-27 10:18:24,497,497 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D7D8>
+2011-08-27 10:18:24,499,499 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=33
+2011-08-27 10:18:24,499,499 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 33)]
+2011-08-27 10:18:24,499,499 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:29,460,460 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=31
+2011-08-27 10:18:29,489,489 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D9B8>
+2011-08-27 10:18:29,490,490 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=31
+2011-08-27 10:18:29,490,490 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 31)]
+2011-08-27 10:18:29,490,490 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:29,497,497 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023327D0> packetId=34
+2011-08-27 10:18:29,525,525 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D4B8>
+2011-08-27 10:18:29,525,525 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=34
+2011-08-27 10:18:29,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023327D0>, 34)]
+2011-08-27 10:18:29,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:34,489,489 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=32
+2011-08-27 10:18:34,517,517 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D940>
+2011-08-27 10:18:34,517,517 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=32
+2011-08-27 10:18:34,517,517 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 32)]
+2011-08-27 10:18:34,519,519 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:34,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=35
+2011-08-27 10:18:34,555,555 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D490>
+2011-08-27 10:18:34,555,555 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=35
+2011-08-27 10:18:34,556,556 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 35)]
+2011-08-27 10:18:34,556,556 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:39,517,517 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=33
+2011-08-27 10:18:39,555,555 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023329B0> packetId=36
+2011-08-27 10:18:39,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337878>
+2011-08-27 10:18:39,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=33
+2011-08-27 10:18:39,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 33)]
+2011-08-27 10:18:39,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:39,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D3C8>
+2011-08-27 10:18:39,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=36
+2011-08-27 10:18:39,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023329B0>, 36)]
+2011-08-27 10:18:39,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:44,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=34
+2011-08-27 10:18:44,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337F08>
+2011-08-27 10:18:44,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=34
+2011-08-27 10:18:44,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 34)]
+2011-08-27 10:18:44,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:44,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=37
+2011-08-27 10:18:44,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DB20>
+2011-08-27 10:18:44,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=37
+2011-08-27 10:18:44,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 37)]
+2011-08-27 10:18:44,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:49,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=35
+2011-08-27 10:18:49,621,621 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DA30>
+2011-08-27 10:18:49,621,621 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=35
+2011-08-27 10:18:49,621,621 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 35)]
+2011-08-27 10:18:49,622,622 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:49,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332FD0> packetId=38
+2011-08-27 10:18:49,655,655 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350E40>
+2011-08-27 10:18:49,655,655 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=38
+2011-08-27 10:18:49,655,655 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332FD0>, 38)]
+2011-08-27 10:18:49,657,657 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:54,621,621 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=36
+2011-08-27 10:18:54,651,651 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337FA8>
+2011-08-27 10:18:54,651,651 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=36
+2011-08-27 10:18:54,651,651 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 36)]
+2011-08-27 10:18:54,651,651 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:54,655,655 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=39
+2011-08-27 10:18:54,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023505D0>
+2011-08-27 10:18:54,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=39
+2011-08-27 10:18:54,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 39)]
+2011-08-27 10:18:54,704,704 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:59,651,651 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=37
+2011-08-27 10:18:59,678,678 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350A58>
+2011-08-27 10:18:59,678,678 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=37
+2011-08-27 10:18:59,680,680 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 37)]
+2011-08-27 10:18:59,680,680 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:18:59,704,704 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023327B0> packetId=40
+2011-08-27 10:18:59,734,734 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023503F0>
+2011-08-27 10:18:59,736,736 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=40
+2011-08-27 10:18:59,736,736 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023327B0>, 40)]
+2011-08-27 10:18:59,736,736 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:04,678,678 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=38
+2011-08-27 10:19:04,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350300>
+2011-08-27 10:19:04,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=38
+2011-08-27 10:19:04,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 38)]
+2011-08-27 10:19:04,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:04,734,734 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=41
+2011-08-27 10:19:04,766,766 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350828>
+2011-08-27 10:19:04,766,766 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=41
+2011-08-27 10:19:04,766,766 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 41)]
+2011-08-27 10:19:04,766,766 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:09,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=39
+2011-08-27 10:19:09,729,729 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023500F8>
+2011-08-27 10:19:09,730,730 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=39
+2011-08-27 10:19:09,730,730 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 39)]
+2011-08-27 10:19:09,730,730 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:09,766,766 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023329B0> packetId=42
+2011-08-27 10:19:09,792,792 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023508A0>
+2011-08-27 10:19:09,792,792 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=42
+2011-08-27 10:19:09,792,792 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023329B0>, 42)]
+2011-08-27 10:19:09,792,792 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:14,729,729 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=40
+2011-08-27 10:19:14,759,759 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350210>
+2011-08-27 10:19:14,759,759 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=40
+2011-08-27 10:19:14,759,759 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 40)]
+2011-08-27 10:19:14,759,759 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:14,792,792 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=43
+2011-08-27 10:19:14,823,823 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356120>
+2011-08-27 10:19:14,825,825 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=43
+2011-08-27 10:19:14,825,825 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 43)]
+2011-08-27 10:19:14,825,825 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:19,759,759 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=41
+2011-08-27 10:19:19,788,788 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02340878>
+2011-08-27 10:19:19,789,789 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=41
+2011-08-27 10:19:19,789,789 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 41)]
+2011-08-27 10:19:19,789,789 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:19,823,823 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332FD0> packetId=44
+2011-08-27 10:19:19,855,855 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356300>
+2011-08-27 10:19:19,855,855 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=44
+2011-08-27 10:19:19,855,855 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332FD0>, 44)]
+2011-08-27 10:19:19,855,855 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:24,788,788 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=42
+2011-08-27 10:19:24,816,816 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356508>
+2011-08-27 10:19:24,816,816 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=42
+2011-08-27 10:19:24,816,816 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 42)]
+2011-08-27 10:19:24,816,816 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:24,855,855 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=45
+2011-08-27 10:19:24,888,888 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023565A8>
+2011-08-27 10:19:24,888,888 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=45
+2011-08-27 10:19:24,888,888 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 45)]
+2011-08-27 10:19:24,888,888 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:29,816,816 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=43
+2011-08-27 10:19:29,845,845 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023565F8>
+2011-08-27 10:19:29,845,845 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=43
+2011-08-27 10:19:29,846,846 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 43)]
+2011-08-27 10:19:29,846,846 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:29,888,888 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023327B0> packetId=46
+2011-08-27 10:19:29,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356670>
+2011-08-27 10:19:29,918,918 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=46
+2011-08-27 10:19:29,918,918 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023327B0>, 46)]
+2011-08-27 10:19:29,918,918 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:34,845,845 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=44
+2011-08-27 10:19:34,875,875 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356760>
+2011-08-27 10:19:34,877,877 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=44
+2011-08-27 10:19:34,877,877 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 44)]
+2011-08-27 10:19:34,877,877 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:34,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=47
+2011-08-27 10:19:34,957,957 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023562B0>
+2011-08-27 10:19:34,957,957 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=47
+2011-08-27 10:19:34,959,959 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 47)]
+2011-08-27 10:19:34,959,959 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:39,875,875 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=45
+2011-08-27 10:19:39,957,957 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023329B0> packetId=48
+2011-08-27 10:19:40,006,006 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234BA08>
+2011-08-27 10:19:40,006,006 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=45
+2011-08-27 10:19:40,006,006 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 45)]
+2011-08-27 10:19:40,006,006 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:40,036,036 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356490>
+2011-08-27 10:19:40,036,036 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=48
+2011-08-27 10:19:40,036,036 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023329B0>, 48)]
+2011-08-27 10:19:40,036,036 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:45,006,006 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=46
+2011-08-27 10:19:45,035,035 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234BA58>
+2011-08-27 10:19:45,036,036 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=46
+2011-08-27 10:19:45,036,036 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 46)]
+2011-08-27 10:19:45,036,036 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:45,036,036 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=49
+2011-08-27 10:19:45,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023569B8>
+2011-08-27 10:19:45,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=49
+2011-08-27 10:19:45,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 49)]
+2011-08-27 10:19:45,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:50,035,035 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=47
+2011-08-27 10:19:50,065,065 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332FD0> packetId=50
+2011-08-27 10:19:50,066,066 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356D78>
+2011-08-27 10:19:50,068,068 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=47
+2011-08-27 10:19:50,068,068 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 47)]
+2011-08-27 10:19:50,068,068 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:50,099,099 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356990>
+2011-08-27 10:19:50,101,101 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=50
+2011-08-27 10:19:50,101,101 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332FD0>, 50)]
+2011-08-27 10:19:50,101,101 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:55,069,069 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=48
+2011-08-27 10:19:55,096,096 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356968>
+2011-08-27 10:19:55,096,096 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=48
+2011-08-27 10:19:55,096,096 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 48)]
+2011-08-27 10:19:55,098,098 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:19:55,099,099 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=51
+2011-08-27 10:19:55,131,131 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023567D8>
+2011-08-27 10:19:55,131,131 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=51
+2011-08-27 10:19:55,131,131 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 51)]
+2011-08-27 10:19:55,131,131 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:00,096,096 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=49
+2011-08-27 10:20:00,125,125 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356B20>
+2011-08-27 10:20:00,127,127 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=49
+2011-08-27 10:20:00,127,127 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 49)]
+2011-08-27 10:20:00,127,127 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:00,131,131 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=52
+2011-08-27 10:20:00,181,181 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359350>
+2011-08-27 10:20:00,183,183 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=52
+2011-08-27 10:20:00,183,183 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 52)]
+2011-08-27 10:20:00,183,183 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:05,125,125 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=50
+2011-08-27 10:20:05,154,154 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356940>
+2011-08-27 10:20:05,155,155 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=50
+2011-08-27 10:20:05,155,155 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 50)]
+2011-08-27 10:20:05,155,155 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:05,181,181 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=53
+2011-08-27 10:20:05,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359120>
+2011-08-27 10:20:05,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=53
+2011-08-27 10:20:05,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 53)]
+2011-08-27 10:20:05,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:10,154,154 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=51
+2011-08-27 10:20:10,184,184 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023594B8>
+2011-08-27 10:20:10,184,184 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=51
+2011-08-27 10:20:10,184,184 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 51)]
+2011-08-27 10:20:10,186,186 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:10,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023327B0> packetId=54
+2011-08-27 10:20:10,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359508>
+2011-08-27 10:20:10,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=54
+2011-08-27 10:20:10,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023327B0>, 54)]
+2011-08-27 10:20:10,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:15,184,184 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=52
+2011-08-27 10:20:15,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359698>
+2011-08-27 10:20:15,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=52
+2011-08-27 10:20:15,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 52)]
+2011-08-27 10:20:15,214,214 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:15,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=55
+2011-08-27 10:20:15,273,273 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359738>
+2011-08-27 10:20:15,275,275 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=55
+2011-08-27 10:20:15,275,275 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 55)]
+2011-08-27 10:20:15,275,275 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:20,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=53
+2011-08-27 10:20:20,242,242 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359878>
+2011-08-27 10:20:20,242,242 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=53
+2011-08-27 10:20:20,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 53)]
+2011-08-27 10:20:20,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:20,275,275 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332FD0> packetId=56
+2011-08-27 10:20:20,303,303 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023592D8>
+2011-08-27 10:20:20,303,303 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=56
+2011-08-27 10:20:20,303,303 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332FD0>, 56)]
+2011-08-27 10:20:20,303,303 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:25,242,242 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=54
+2011-08-27 10:20:25,299,299 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350418>
+2011-08-27 10:20:25,299,299 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=54
+2011-08-27 10:20:25,299,299 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 54)]
+2011-08-27 10:20:25,299,299 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:25,303,303 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=57
+2011-08-27 10:20:25,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023503F0>
+2011-08-27 10:20:25,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=57
+2011-08-27 10:20:25,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 57)]
+2011-08-27 10:20:25,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:30,299,299 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=55
+2011-08-27 10:20:30,328,328 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350620>
+2011-08-27 10:20:30,328,328 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=55
+2011-08-27 10:20:30,329,329 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 55)]
+2011-08-27 10:20:30,329,329 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:30,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=58
+2011-08-27 10:20:30,364,364 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023504E0>
+2011-08-27 10:20:30,365,365 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=58
+2011-08-27 10:20:30,365,365 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 58)]
+2011-08-27 10:20:30,365,365 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:35,328,328 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=56
+2011-08-27 10:20:35,354,354 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023508F0>
+2011-08-27 10:20:35,354,354 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=56
+2011-08-27 10:20:35,354,354 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 56)]
+2011-08-27 10:20:35,354,354 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:35,364,364 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=59
+2011-08-27 10:20:35,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DB70>
+2011-08-27 10:20:35,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=59
+2011-08-27 10:20:35,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 59)]
+2011-08-27 10:20:35,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:40,354,354 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=57
+2011-08-27 10:20:40,382,382 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DE90>
+2011-08-27 10:20:40,382,382 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=57
+2011-08-27 10:20:40,384,384 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 57)]
+2011-08-27 10:20:40,384,384 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:40,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023327B0> packetId=60
+2011-08-27 10:20:40,418,418 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DF08>
+2011-08-27 10:20:40,420,420 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=60
+2011-08-27 10:20:40,420,420 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023327B0>, 60)]
+2011-08-27 10:20:40,420,420 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:45,382,382 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=58
+2011-08-27 10:20:45,411,411 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D828>
+2011-08-27 10:20:45,411,411 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=58
+2011-08-27 10:20:45,411,411 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 58)]
+2011-08-27 10:20:45,413,413 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:45,418,418 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=61
+2011-08-27 10:20:45,447,447 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DB20>
+2011-08-27 10:20:45,448,448 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=61
+2011-08-27 10:20:45,448,448 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 61)]
+2011-08-27 10:20:45,448,448 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:50,411,411 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=59
+2011-08-27 10:20:50,440,440 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D3C8>
+2011-08-27 10:20:50,441,441 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=59
+2011-08-27 10:20:50,441,441 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 59)]
+2011-08-27 10:20:50,441,441 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:50,447,447 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332FD0> packetId=62
+2011-08-27 10:20:50,477,477 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D940>
+2011-08-27 10:20:50,479,479 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=62
+2011-08-27 10:20:50,479,479 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332FD0>, 62)]
+2011-08-27 10:20:50,480,480 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:55,440,440 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=60
+2011-08-27 10:20:55,469,469 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D6E8>
+2011-08-27 10:20:55,469,469 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=60
+2011-08-27 10:20:55,470,470 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 60)]
+2011-08-27 10:20:55,470,470 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:20:55,477,477 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=63
+2011-08-27 10:20:55,510,510 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DCB0>
+2011-08-27 10:20:55,512,512 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=63
+2011-08-27 10:20:55,512,512 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 63)]
+2011-08-27 10:20:55,512,512 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:00,469,469 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=61
+2011-08-27 10:21:00,499,499 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DA58>
+2011-08-27 10:21:00,499,499 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=61
+2011-08-27 10:21:00,500,500 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 61)]
+2011-08-27 10:21:00,500,500 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:00,510,510 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=64
+2011-08-27 10:21:00,542,542 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D968>
+2011-08-27 10:21:00,542,542 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=64
+2011-08-27 10:21:00,542,542 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 64)]
+2011-08-27 10:21:00,542,542 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:05,500,500 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=62
+2011-08-27 10:21:05,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D238>
+2011-08-27 10:21:05,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=62
+2011-08-27 10:21:05,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 62)]
+2011-08-27 10:21:05,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:05,542,542 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=65
+2011-08-27 10:21:05,568,568 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D490>
+2011-08-27 10:21:05,568,568 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=65
+2011-08-27 10:21:05,568,568 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 65)]
+2011-08-27 10:21:05,569,569 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:10,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=63
+2011-08-27 10:21:10,556,556 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D4E0>
+2011-08-27 10:21:10,556,556 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=63
+2011-08-27 10:21:10,556,556 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 63)]
+2011-08-27 10:21:10,558,558 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:10,568,568 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023327B0> packetId=66
+2011-08-27 10:21:10,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356F58>
+2011-08-27 10:21:10,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=66
+2011-08-27 10:21:10,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023327B0>, 66)]
+2011-08-27 10:21:10,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:15,556,556 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=64
+2011-08-27 10:21:15,588,588 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350F08>
+2011-08-27 10:21:15,588,588 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=64
+2011-08-27 10:21:15,588,588 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 64)]
+2011-08-27 10:21:15,588,588 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:15,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=67
+2011-08-27 10:21:15,627,627 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356FD0>
+2011-08-27 10:21:15,628,628 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=67
+2011-08-27 10:21:15,628,628 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 67)]
+2011-08-27 10:21:15,628,628 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:20,588,588 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=65
+2011-08-27 10:21:20,615,615 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023569E0>
+2011-08-27 10:21:20,615,615 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=65
+2011-08-27 10:21:20,617,617 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 65)]
+2011-08-27 10:21:20,617,617 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:20,627,627 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332FD0> packetId=68
+2011-08-27 10:21:20,654,654 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356D28>
+2011-08-27 10:21:20,655,655 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=68
+2011-08-27 10:21:20,655,655 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332FD0>, 68)]
+2011-08-27 10:21:20,655,655 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:25,615,615 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=66
+2011-08-27 10:21:25,644,644 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356C38>
+2011-08-27 10:21:25,644,644 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=66
+2011-08-27 10:21:25,644,644 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 66)]
+2011-08-27 10:21:25,644,644 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:25,654,654 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=69
+2011-08-27 10:21:25,707,707 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356990>
+2011-08-27 10:21:25,707,707 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=69
+2011-08-27 10:21:25,707,707 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 69)]
+2011-08-27 10:21:25,707,707 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:30,644,644 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=67
+2011-08-27 10:21:30,673,673 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356CD8>
+2011-08-27 10:21:30,674,674 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=67
+2011-08-27 10:21:30,674,674 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 67)]
+2011-08-27 10:21:30,674,674 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:30,707,707 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=70
+2011-08-27 10:21:30,736,736 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356D78>
+2011-08-27 10:21:30,736,736 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=70
+2011-08-27 10:21:30,736,736 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 70)]
+2011-08-27 10:21:30,737,737 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:35,673,673 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=68
+2011-08-27 10:21:35,701,701 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356710>
+2011-08-27 10:21:35,701,701 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=68
+2011-08-27 10:21:35,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 68)]
+2011-08-27 10:21:35,703,703 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:35,736,736 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=71
+2011-08-27 10:21:35,767,767 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356AF8>
+2011-08-27 10:21:35,767,767 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=71
+2011-08-27 10:21:35,769,769 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 71)]
+2011-08-27 10:21:35,769,769 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:40,701,701 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=69
+2011-08-27 10:21:40,730,730 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356648>
+2011-08-27 10:21:40,732,732 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=69
+2011-08-27 10:21:40,732,732 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 69)]
+2011-08-27 10:21:40,732,732 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:40,767,767 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023327B0> packetId=72
+2011-08-27 10:21:40,798,798 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356760>
+2011-08-27 10:21:40,799,799 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=72
+2011-08-27 10:21:40,799,799 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023327B0>, 72)]
+2011-08-27 10:21:40,799,799 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:45,730,730 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=70
+2011-08-27 10:21:45,759,759 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023565A8>
+2011-08-27 10:21:45,759,759 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=70
+2011-08-27 10:21:45,760,760 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 70)]
+2011-08-27 10:21:45,760,760 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:45,798,798 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=73
+2011-08-27 10:21:45,828,828 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356620>
+2011-08-27 10:21:45,828,828 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=73
+2011-08-27 10:21:45,828,828 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 73)]
+2011-08-27 10:21:45,829,829 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:50,759,759 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=71
+2011-08-27 10:21:50,828,828 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332FD0> packetId=74
+2011-08-27 10:21:50,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350BC0>
+2011-08-27 10:21:50,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=71
+2011-08-27 10:21:50,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 71)]
+2011-08-27 10:21:50,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:50,884,884 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356288>
+2011-08-27 10:21:50,884,884 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=74
+2011-08-27 10:21:50,884,884 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332FD0>, 74)]
+2011-08-27 10:21:50,884,884 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:55,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=72
+2011-08-27 10:21:55,864,864 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DA08>
+2011-08-27 10:21:55,864,864 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=72
+2011-08-27 10:21:55,865,865 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 72)]
+2011-08-27 10:21:55,865,865 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:21:55,884,884 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=75
+2011-08-27 10:21:55,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356080>
+2011-08-27 10:21:55,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=75
+2011-08-27 10:21:55,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 75)]
+2011-08-27 10:21:55,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:00,864,864 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=73
+2011-08-27 10:22:00,888,888 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023500F8>
+2011-08-27 10:22:00,888,888 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=73
+2011-08-27 10:22:00,890,890 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 73)]
+2011-08-27 10:22:00,890,890 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:00,915,915 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=76
+2011-08-27 10:22:00,941,941 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356300>
+2011-08-27 10:22:00,941,941 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=76
+2011-08-27 10:22:00,943,943 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 76)]
+2011-08-27 10:22:00,943,943 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:05,888,888 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=74
+2011-08-27 10:22:05,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D580>
+2011-08-27 10:22:05,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=74
+2011-08-27 10:22:05,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 74)]
+2011-08-27 10:22:05,918,918 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:05,941,941 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=77
+2011-08-27 10:22:05,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356878>
+2011-08-27 10:22:05,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=77
+2011-08-27 10:22:05,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 77)]
+2011-08-27 10:22:05,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:10,917,917 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=75
+2011-08-27 10:22:10,947,947 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356B70>
+2011-08-27 10:22:10,947,947 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=75
+2011-08-27 10:22:10,948,948 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 75)]
+2011-08-27 10:22:10,948,948 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:10,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332930> packetId=78
+2011-08-27 10:22:11,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233D170>
+2011-08-27 10:22:11,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=78
+2011-08-27 10:22:11,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332930>, 78)]
+2011-08-27 10:22:11,025,025 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:15,951,951 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=76
+2011-08-27 10:22:15,986,986 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356C60>
+2011-08-27 10:22:15,986,986 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=76
+2011-08-27 10:22:15,987,987 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 76)]
+2011-08-27 10:22:15,987,987 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:16,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=79
+2011-08-27 10:22:16,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233DC10>
+2011-08-27 10:22:16,053,053 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=79
+2011-08-27 10:22:16,053,053 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 79)]
+2011-08-27 10:22:16,053,053 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:20,986,986 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=77
+2011-08-27 10:22:21,016,016 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233DFA8>
+2011-08-27 10:22:21,016,016 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=77
+2011-08-27 10:22:21,016,016 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 77)]
+2011-08-27 10:22:21,016,016 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:21,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332FD0> packetId=80
+2011-08-27 10:22:21,084,084 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233D5F8>
+2011-08-27 10:22:21,085,085 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=80
+2011-08-27 10:22:21,085,085 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332FD0>, 80)]
+2011-08-27 10:22:21,085,085 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:26,016,016 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=78
+2011-08-27 10:22:26,043,043 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233DE90>
+2011-08-27 10:22:26,043,043 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=78
+2011-08-27 10:22:26,043,043 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 78)]
+2011-08-27 10:22:26,045,045 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:26,084,084 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=81
+2011-08-27 10:22:26,114,114 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233D710>
+2011-08-27 10:22:26,115,115 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=81
+2011-08-27 10:22:26,115,115 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 81)]
+2011-08-27 10:22:26,115,115 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:31,043,043 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=79
+2011-08-27 10:22:31,114,114 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=82
+2011-08-27 10:22:31,141,141 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350B48>
+2011-08-27 10:22:31,142,142 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=79
+2011-08-27 10:22:31,142,142 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 79)]
+2011-08-27 10:22:31,142,142 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:31,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337FA8>
+2011-08-27 10:22:31,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=82
+2011-08-27 10:22:31,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 82)]
+2011-08-27 10:22:31,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:36,141,141 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=80
+2011-08-27 10:22:36,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=83
+2011-08-27 10:22:36,173,173 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D170>
+2011-08-27 10:22:36,173,173 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=80
+2011-08-27 10:22:36,173,173 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 80)]
+2011-08-27 10:22:36,174,174 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:36,204,204 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337878>
+2011-08-27 10:22:36,204,204 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=83
+2011-08-27 10:22:36,204,204 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 83)]
+2011-08-27 10:22:36,206,206 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:41,173,173 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=81
+2011-08-27 10:22:41,203,203 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023500A8>
+2011-08-27 10:22:41,203,203 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=81
+2011-08-27 10:22:41,203,203 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 81)]
+2011-08-27 10:22:41,203,203 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:41,203,203 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332930> packetId=84
+2011-08-27 10:22:41,233,233 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337030>
+2011-08-27 10:22:41,233,233 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=84
+2011-08-27 10:22:41,233,233 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332930>, 84)]
+2011-08-27 10:22:41,233,233 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:46,203,203 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=82
+2011-08-27 10:22:46,233,233 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=85
+2011-08-27 10:22:46,250,250 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350558>
+2011-08-27 10:22:46,250,250 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=82
+2011-08-27 10:22:46,250,250 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 82)]
+2011-08-27 10:22:46,250,250 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:46,278,278 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023405F8>
+2011-08-27 10:22:46,278,278 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=85
+2011-08-27 10:22:46,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 85)]
+2011-08-27 10:22:46,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:51,250,250 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=83
+2011-08-27 10:22:51,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0233D558>
+2011-08-27 10:22:51,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=83
+2011-08-27 10:22:51,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 83)]
+2011-08-27 10:22:51,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:51,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332EB0> packetId=86
+2011-08-27 10:22:51,311,311 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02340620>
+2011-08-27 10:22:51,311,311 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=86
+2011-08-27 10:22:51,311,311 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332EB0>, 86)]
+2011-08-27 10:22:51,312,312 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:56,278,278 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=84
+2011-08-27 10:22:56,305,305 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023504B8>
+2011-08-27 10:22:56,305,305 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=84
+2011-08-27 10:22:56,305,305 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 84)]
+2011-08-27 10:22:56,306,306 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:22:56,311,311 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332790> packetId=87
+2011-08-27 10:22:56,341,341 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023404E0>
+2011-08-27 10:22:56,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=87
+2011-08-27 10:22:56,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332790>, 87)]
+2011-08-27 10:22:56,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:01,305,305 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=85
+2011-08-27 10:23:01,334,334 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02340D78>
+2011-08-27 10:23:01,334,334 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=85
+2011-08-27 10:23:01,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 85)]
+2011-08-27 10:23:01,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:01,341,341 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=88
+2011-08-27 10:23:01,378,378 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02340A30>
+2011-08-27 10:23:01,378,378 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=88
+2011-08-27 10:23:01,378,378 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 88)]
+2011-08-27 10:23:01,378,378 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:06,334,334 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=86
+2011-08-27 10:23:06,361,361 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02340698>
+2011-08-27 10:23:06,362,362 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=86
+2011-08-27 10:23:06,362,362 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 86)]
+2011-08-27 10:23:06,362,362 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:06,378,378 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=89
+2011-08-27 10:23:06,407,407 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02340210>
+2011-08-27 10:23:06,407,407 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=89
+2011-08-27 10:23:06,407,407 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 89)]
+2011-08-27 10:23:06,408,408 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:11,361,361 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=87
+2011-08-27 10:23:11,390,390 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02340288>
+2011-08-27 10:23:11,390,390 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=87
+2011-08-27 10:23:11,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 87)]
+2011-08-27 10:23:11,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:11,407,407 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332930> packetId=90
+2011-08-27 10:23:11,437,437 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02340FD0>
+2011-08-27 10:23:11,438,438 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=90
+2011-08-27 10:23:11,438,438 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332930>, 90)]
+2011-08-27 10:23:11,438,438 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:16,390,390 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=88
+2011-08-27 10:23:16,426,426 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337350>
+2011-08-27 10:23:16,427,427 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=88
+2011-08-27 10:23:16,427,427 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 88)]
+2011-08-27 10:23:16,427,427 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:16,437,437 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=91
+2011-08-27 10:23:16,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023400D0>
+2011-08-27 10:23:16,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=91
+2011-08-27 10:23:16,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 91)]
+2011-08-27 10:23:16,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:21,426,426 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=89
+2011-08-27 10:23:21,453,453 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02340058>
+2011-08-27 10:23:21,454,454 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=89
+2011-08-27 10:23:21,454,454 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 89)]
+2011-08-27 10:23:21,454,454 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:21,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332EB0> packetId=92
+2011-08-27 10:23:21,500,500 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02335EB8>
+2011-08-27 10:23:21,500,500 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=92
+2011-08-27 10:23:21,500,500 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332EB0>, 92)]
+2011-08-27 10:23:21,500,500 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:26,453,453 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=90
+2011-08-27 10:23:26,483,483 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x022D3620>
+2011-08-27 10:23:26,483,483 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=90
+2011-08-27 10:23:26,483,483 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 90)]
+2011-08-27 10:23:26,484,484 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:26,500,500 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332790> packetId=93
+2011-08-27 10:23:26,528,528 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02335E68>
+2011-08-27 10:23:26,529,529 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=93
+2011-08-27 10:23:26,529,529 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332790>, 93)]
+2011-08-27 10:23:26,529,529 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:31,483,483 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=91
+2011-08-27 10:23:31,513,513 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02335F58>
+2011-08-27 10:23:31,513,513 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=91
+2011-08-27 10:23:31,513,513 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 91)]
+2011-08-27 10:23:31,515,515 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:31,528,528 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=94
+2011-08-27 10:23:31,553,553 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02335EE0>
+2011-08-27 10:23:31,553,553 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=94
+2011-08-27 10:23:31,553,553 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 94)]
+2011-08-27 10:23:31,555,555 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:36,513,513 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=92
+2011-08-27 10:23:36,553,553 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=95
+2011-08-27 10:23:36,582,582 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356120>
+2011-08-27 10:23:36,582,582 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=95
+2011-08-27 10:23:36,582,582 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 95)]
+2011-08-27 10:23:36,582,582 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:36,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234B4B8>
+2011-08-27 10:23:36,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=92
+2011-08-27 10:23:36,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 92)]
+2011-08-27 10:23:36,595,595 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:41,582,582 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=96
+2011-08-27 10:23:41,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332930> packetId=93
+2011-08-27 10:23:41,617,617 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356918>
+2011-08-27 10:23:41,617,617 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=96
+2011-08-27 10:23:41,617,617 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 96)]
+2011-08-27 10:23:41,618,618 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:41,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234B800>
+2011-08-27 10:23:41,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=93
+2011-08-27 10:23:41,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332930>, 93)]
+2011-08-27 10:23:41,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:46,617,617 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=97
+2011-08-27 10:23:46,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=94
+2011-08-27 10:23:46,647,647 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02335D50>
+2011-08-27 10:23:46,648,648 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=97
+2011-08-27 10:23:46,648,648 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 97)]
+2011-08-27 10:23:46,648,648 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:46,651,651 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234B760>
+2011-08-27 10:23:46,653,653 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=94
+2011-08-27 10:23:46,653,653 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 94)]
+2011-08-27 10:23:46,653,653 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:51,647,647 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=98
+2011-08-27 10:23:51,651,651 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332EB0> packetId=95
+2011-08-27 10:23:51,680,680 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337990>
+2011-08-27 10:23:51,680,680 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=98
+2011-08-27 10:23:51,680,680 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 98)]
+2011-08-27 10:23:51,680,680 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:51,681,681 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234B3A0>
+2011-08-27 10:23:51,683,683 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=95
+2011-08-27 10:23:51,683,683 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332EB0>, 95)]
+2011-08-27 10:23:51,683,683 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:56,680,680 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=99
+2011-08-27 10:23:56,681,681 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332550> packetId=96
+2011-08-27 10:23:56,713,713 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023355D0>
+2011-08-27 10:23:56,713,713 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=96
+2011-08-27 10:23:56,713,713 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332550>, 96)]
+2011-08-27 10:23:56,713,713 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:23:56,716,716 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343968>
+2011-08-27 10:23:56,716,716 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=99
+2011-08-27 10:23:56,716,716 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 99)]
+2011-08-27 10:23:56,717,717 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:01,713,713 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=97
+2011-08-27 10:24:01,716,716 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=100
+2011-08-27 10:24:01,740,740 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234B850>
+2011-08-27 10:24:01,740,740 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=97
+2011-08-27 10:24:01,740,740 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 97)]
+2011-08-27 10:24:01,740,740 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:01,746,746 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343120>
+2011-08-27 10:24:01,746,746 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=100
+2011-08-27 10:24:01,746,746 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 100)]
+2011-08-27 10:24:01,746,746 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:06,740,740 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332550> packetId=98
+2011-08-27 10:24:06,746,746 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332790> packetId=101
+2011-08-27 10:24:06,767,767 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337530>
+2011-08-27 10:24:06,767,767 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=98
+2011-08-27 10:24:06,769,769 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332550>, 98)]
+2011-08-27 10:24:06,769,769 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:06,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346710>
+2011-08-27 10:24:06,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=101
+2011-08-27 10:24:06,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332790>, 101)]
+2011-08-27 10:24:06,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:11,767,767 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=99
+2011-08-27 10:24:11,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=102
+2011-08-27 10:24:11,798,798 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234BAA8>
+2011-08-27 10:24:11,798,798 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=99
+2011-08-27 10:24:11,798,798 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 99)]
+2011-08-27 10:24:11,799,799 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:11,805,805 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346990>
+2011-08-27 10:24:11,805,805 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=102
+2011-08-27 10:24:11,806,806 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 102)]
+2011-08-27 10:24:11,806,806 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:16,796,796 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332550> packetId=100
+2011-08-27 10:24:16,805,805 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=103
+2011-08-27 10:24:16,874,874 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023409E0>
+2011-08-27 10:24:16,874,874 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=100
+2011-08-27 10:24:16,874,874 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332550>, 100)]
+2011-08-27 10:24:16,875,875 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:16,875,875 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353198>
+2011-08-27 10:24:16,877,877 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=103
+2011-08-27 10:24:16,877,877 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 103)]
+2011-08-27 10:24:16,877,877 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:21,874,874 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=101
+2011-08-27 10:24:21,875,875 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332930> packetId=104
+2011-08-27 10:24:21,904,904 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234B698>
+2011-08-27 10:24:21,904,904 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=101
+2011-08-27 10:24:21,904,904 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 101)]
+2011-08-27 10:24:21,904,904 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:21,908,908 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02348468>
+2011-08-27 10:24:21,908,908 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=104
+2011-08-27 10:24:21,910,910 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332930>, 104)]
+2011-08-27 10:24:21,910,910 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:26,904,904 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332550> packetId=102
+2011-08-27 10:24:26,908,908 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332990> packetId=105
+2011-08-27 10:24:26,933,933 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353990>
+2011-08-27 10:24:26,933,933 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=102
+2011-08-27 10:24:26,933,933 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332550>, 102)]
+2011-08-27 10:24:26,934,934 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:26,937,937 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02348288>
+2011-08-27 10:24:26,937,937 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=105
+2011-08-27 10:24:26,938,938 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332990>, 105)]
+2011-08-27 10:24:26,938,938 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:31,933,933 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=103
+2011-08-27 10:24:31,937,937 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332EB0> packetId=106
+2011-08-27 10:24:31,961,961 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02337FD0>
+2011-08-27 10:24:31,961,961 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=103
+2011-08-27 10:24:31,963,963 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 103)]
+2011-08-27 10:24:31,963,963 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:31,984,984 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359990>
+2011-08-27 10:24:31,984,984 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=106
+2011-08-27 10:24:31,984,984 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332EB0>, 106)]
+2011-08-27 10:24:31,986,986 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:36,961,961 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332550> packetId=104
+2011-08-27 10:24:36,984,984 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332890> packetId=107
+2011-08-27 10:24:36,992,992 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x022D38F0>
+2011-08-27 10:24:36,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=104
+2011-08-27 10:24:36,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332550>, 104)]
+2011-08-27 10:24:36,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:37,019,019 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359030>
+2011-08-27 10:24:37,019,019 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=107
+2011-08-27 10:24:37,019,019 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332890>, 107)]
+2011-08-27 10:24:37,019,019 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:41,992,992 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=105
+2011-08-27 10:24:42,019,019 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234BE68>
+2011-08-27 10:24:42,019,019 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=105
+2011-08-27 10:24:42,020,020 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 105)]
+2011-08-27 10:24:42,020,020 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:42,022,022 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=108
+2011-08-27 10:24:42,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023599B8>
+2011-08-27 10:24:42,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=108
+2011-08-27 10:24:42,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 108)]
+2011-08-27 10:24:42,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:47,019,019 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332550> packetId=106
+2011-08-27 10:24:47,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346BE8>
+2011-08-27 10:24:47,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=106
+2011-08-27 10:24:47,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332550>, 106)]
+2011-08-27 10:24:47,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:47,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332790> packetId=109
+2011-08-27 10:24:47,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359F80>
+2011-08-27 10:24:47,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=109
+2011-08-27 10:24:47,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332790>, 109)]
+2011-08-27 10:24:47,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:52,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=107
+2011-08-27 10:24:52,078,078 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359CD8>
+2011-08-27 10:24:52,078,078 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=107
+2011-08-27 10:24:52,078,078 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 107)]
+2011-08-27 10:24:52,078,078 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:52,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332E70> packetId=110
+2011-08-27 10:24:52,108,108 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0235C378>
+2011-08-27 10:24:52,108,108 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=110
+2011-08-27 10:24:52,108,108 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332E70>, 110)]
+2011-08-27 10:24:52,108,108 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:57,078,078 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332550> packetId=108
+2011-08-27 10:24:57,107,107 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359F30>
+2011-08-27 10:24:57,107,107 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=108
+2011-08-27 10:24:57,108,108 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332550>, 108)]
+2011-08-27 10:24:57,108,108 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:24:57,108,108 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324F0> packetId=111
+2011-08-27 10:24:57,138,138 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0235C418>
+2011-08-27 10:24:57,138,138 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=111
+2011-08-27 10:24:57,138,138 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324F0>, 111)]
+2011-08-27 10:24:57,138,138 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:02,107,107 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332A50> packetId=109
+2011-08-27 10:25:02,134,134 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0235C4E0>
+2011-08-27 10:25:02,134,134 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=109
+2011-08-27 10:25:02,135,135 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332A50>, 109)]
+2011-08-27 10:25:02,135,135 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:02,138,138 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332EB0> packetId=112
+2011-08-27 10:25:02,168,168 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0235C530>
+2011-08-27 10:25:02,168,168 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=112
+2011-08-27 10:25:02,168,168 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332EB0>, 112)]
+2011-08-27 10:25:02,168,168 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:07,134,134 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=110
+2011-08-27 10:25:07,164,164 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02331EE0>
+2011-08-27 10:25:07,164,164 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=110
+2011-08-27 10:25:07,164,164 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 110)]
+2011-08-27 10:25:07,164,164 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:07,167,167 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=113
+2011-08-27 10:25:07,197,197 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023595D0>
+2011-08-27 10:25:07,197,197 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=113
+2011-08-27 10:25:07,197,197 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 113)]
+2011-08-27 10:25:07,198,198 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:12,164,164 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=111
+2011-08-27 10:25:12,197,197 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332510> packetId=114
+2011-08-27 10:25:12,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x01ED5F30>
+2011-08-27 10:25:12,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=111
+2011-08-27 10:25:12,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 111)]
+2011-08-27 10:25:12,214,214 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:12,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359CB0>
+2011-08-27 10:25:12,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=114
+2011-08-27 10:25:12,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332510>, 114)]
+2011-08-27 10:25:12,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:17,213,213 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=112
+2011-08-27 10:25:17,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x02332710> packetId=115
+2011-08-27 10:25:17,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359198>
+2011-08-27 10:25:17,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=112
+2011-08-27 10:25:17,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 112)]
+2011-08-27 10:25:17,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:17,273,273 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359300>
+2011-08-27 10:25:17,273,273 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=115
+2011-08-27 10:25:17,273,273 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x02332710>, 115)]
+2011-08-27 10:25:17,273,273 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:22,243,243 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=113
+2011-08-27 10:25:22,272,272 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359C10>
+2011-08-27 10:25:22,273,273 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=113
+2011-08-27 10:25:22,273,273 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 113)]
+2011-08-27 10:25:22,273,273 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:22,273,273 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=116
+2011-08-27 10:25:22,303,303 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023597B0>
+2011-08-27 10:25:22,303,303 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=116
+2011-08-27 10:25:22,305,305 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 116)]
+2011-08-27 10:25:22,305,305 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:27,272,272 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=114
+2011-08-27 10:25:27,299,299 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023592D8>
+2011-08-27 10:25:27,299,299 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=114
+2011-08-27 10:25:27,299,299 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 114)]
+2011-08-27 10:25:27,301,301 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:27,303,303 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=117
+2011-08-27 10:25:27,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023561E8>
+2011-08-27 10:25:27,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=117
+2011-08-27 10:25:27,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 117)]
+2011-08-27 10:25:27,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:32,299,299 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=115
+2011-08-27 10:25:32,328,328 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02359350>
+2011-08-27 10:25:32,329,329 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=115
+2011-08-27 10:25:32,329,329 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 115)]
+2011-08-27 10:25:32,329,329 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:32,335,335 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=118
+2011-08-27 10:25:32,365,365 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356418>
+2011-08-27 10:25:32,365,365 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=118
+2011-08-27 10:25:32,365,365 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 118)]
+2011-08-27 10:25:32,365,365 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:37,328,328 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=116
+2011-08-27 10:25:37,352,352 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356580>
+2011-08-27 10:25:37,352,352 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=116
+2011-08-27 10:25:37,352,352 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 116)]
+2011-08-27 10:25:37,352,352 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:37,365,365 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=119
+2011-08-27 10:25:37,390,390 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356468>
+2011-08-27 10:25:37,390,390 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=119
+2011-08-27 10:25:37,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 119)]
+2011-08-27 10:25:37,391,391 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:42,352,352 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=117
+2011-08-27 10:25:42,381,381 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356198>
+2011-08-27 10:25:42,381,381 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=117
+2011-08-27 10:25:42,381,381 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 117)]
+2011-08-27 10:25:42,381,381 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:42,390,390 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=120
+2011-08-27 10:25:42,420,420 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356C60>
+2011-08-27 10:25:42,421,421 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=120
+2011-08-27 10:25:42,421,421 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 120)]
+2011-08-27 10:25:42,421,421 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:47,381,381 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=118
+2011-08-27 10:25:47,410,410 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356B70>
+2011-08-27 10:25:47,411,411 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=118
+2011-08-27 10:25:47,411,411 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 118)]
+2011-08-27 10:25:47,411,411 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:47,420,420 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=121
+2011-08-27 10:25:47,450,450 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356350>
+2011-08-27 10:25:47,451,451 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=121
+2011-08-27 10:25:47,451,451 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 121)]
+2011-08-27 10:25:47,451,451 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:52,411,411 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=119
+2011-08-27 10:25:52,440,440 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023568F0>
+2011-08-27 10:25:52,440,440 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=119
+2011-08-27 10:25:52,440,440 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 119)]
+2011-08-27 10:25:52,440,440 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:52,450,450 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=122
+2011-08-27 10:25:52,480,480 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356698>
+2011-08-27 10:25:52,480,480 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=122
+2011-08-27 10:25:52,480,480 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 122)]
+2011-08-27 10:25:52,480,480 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:57,440,440 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=120
+2011-08-27 10:25:57,463,463 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356620>
+2011-08-27 10:25:57,463,463 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=120
+2011-08-27 10:25:57,463,463 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 120)]
+2011-08-27 10:25:57,463,463 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:25:57,480,480 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=123
+2011-08-27 10:25:57,506,506 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356288>
+2011-08-27 10:25:57,506,506 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=123
+2011-08-27 10:25:57,506,506 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 123)]
+2011-08-27 10:25:57,506,506 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:02,463,463 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=121
+2011-08-27 10:26:02,492,492 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356648>
+2011-08-27 10:26:02,492,492 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=121
+2011-08-27 10:26:02,493,493 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 121)]
+2011-08-27 10:26:02,493,493 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:02,506,506 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=124
+2011-08-27 10:26:02,535,535 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356760>
+2011-08-27 10:26:02,535,535 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=124
+2011-08-27 10:26:02,535,535 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 124)]
+2011-08-27 10:26:02,535,535 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:07,492,492 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=122
+2011-08-27 10:26:07,520,520 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356D78>
+2011-08-27 10:26:07,520,520 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=122
+2011-08-27 10:26:07,522,522 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 122)]
+2011-08-27 10:26:07,522,522 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:07,536,536 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=125
+2011-08-27 10:26:07,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023562B0>
+2011-08-27 10:26:07,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=125
+2011-08-27 10:26:07,566,566 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 125)]
+2011-08-27 10:26:07,566,566 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:12,532,532 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=123
+2011-08-27 10:26:12,565,565 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x023324B0> packetId=126
+2011-08-27 10:26:12,569,569 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02243058>
+2011-08-27 10:26:12,569,569 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=123
+2011-08-27 10:26:12,569,569 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 123)]
+2011-08-27 10:26:12,569,569 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:12,696,696 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356120>
+2011-08-27 10:26:12,696,696 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=126
+2011-08-27 10:26:12,697,697 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x023324B0>, 126)]
+2011-08-27 10:26:12,697,697 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:17,569,569 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=124
+2011-08-27 10:26:17,598,598 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356EB8>
+2011-08-27 10:26:17,598,598 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=124
+2011-08-27 10:26:17,598,598 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 124)]
+2011-08-27 10:26:17,598,598 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:17,696,696 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=127
+2011-08-27 10:26:17,724,724 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356990>
+2011-08-27 10:26:17,726,726 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=127
+2011-08-27 10:26:17,726,726 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 127)]
+2011-08-27 10:26:17,726,726 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:22,598,598 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=125
+2011-08-27 10:26:22,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356B48>
+2011-08-27 10:26:22,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=125
+2011-08-27 10:26:22,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 125)]
+2011-08-27 10:26:22,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:22,724,724 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=128
+2011-08-27 10:26:22,822,822 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356D28>
+2011-08-27 10:26:22,822,822 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=128
+2011-08-27 10:26:22,822,822 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 128)]
+2011-08-27 10:26:22,822,822 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:27,625,625 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=126
+2011-08-27 10:26:27,653,653 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356B20>
+2011-08-27 10:26:27,653,653 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=126
+2011-08-27 10:26:27,654,654 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 126)]
+2011-08-27 10:26:27,654,654 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:27,822,822 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=129
+2011-08-27 10:26:27,854,854 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023569E0>
+2011-08-27 10:26:27,854,854 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=129
+2011-08-27 10:26:27,855,855 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 129)]
+2011-08-27 10:26:27,855,855 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:32,653,653 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=127
+2011-08-27 10:26:32,707,707 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356170>
+2011-08-27 10:26:32,707,707 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=127
+2011-08-27 10:26:32,707,707 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 127)]
+2011-08-27 10:26:32,709,709 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:32,854,854 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=130
+2011-08-27 10:26:32,884,884 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023569B8>
+2011-08-27 10:26:32,884,884 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=130
+2011-08-27 10:26:32,885,885 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 130)]
+2011-08-27 10:26:32,885,885 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:37,707,707 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=128
+2011-08-27 10:26:37,732,732 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356440>
+2011-08-27 10:26:37,732,732 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=128
+2011-08-27 10:26:37,732,732 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 128)]
+2011-08-27 10:26:37,733,733 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:37,884,884 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=131
+2011-08-27 10:26:37,914,914 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D530>
+2011-08-27 10:26:37,914,914 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=131
+2011-08-27 10:26:37,914,914 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 131)]
+2011-08-27 10:26:37,914,914 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:42,740,740 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=129
+2011-08-27 10:26:42,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D620>
+2011-08-27 10:26:42,778,778 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=129
+2011-08-27 10:26:42,778,778 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 129)]
+2011-08-27 10:26:42,778,778 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:42,914,914 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=132
+2011-08-27 10:26:42,943,943 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D9B8>
+2011-08-27 10:26:42,944,944 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=132
+2011-08-27 10:26:42,944,944 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 132)]
+2011-08-27 10:26:42,944,944 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:47,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=130
+2011-08-27 10:26:47,805,805 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D670>
+2011-08-27 10:26:47,805,805 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=130
+2011-08-27 10:26:47,805,805 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 130)]
+2011-08-27 10:26:47,806,806 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:47,956,956 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=133
+2011-08-27 10:26:47,992,992 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DA30>
+2011-08-27 10:26:47,992,992 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=133
+2011-08-27 10:26:47,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 133)]
+2011-08-27 10:26:47,993,993 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:52,805,805 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=131
+2011-08-27 10:26:52,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D378>
+2011-08-27 10:26:52,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=131
+2011-08-27 10:26:52,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 131)]
+2011-08-27 10:26:52,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:52,992,992 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=134
+2011-08-27 10:26:53,022,022 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DD00>
+2011-08-27 10:26:53,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=134
+2011-08-27 10:26:53,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 134)]
+2011-08-27 10:26:53,023,023 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:57,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=132
+2011-08-27 10:26:57,862,862 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D440>
+2011-08-27 10:26:57,864,864 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=132
+2011-08-27 10:26:57,864,864 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 132)]
+2011-08-27 10:26:57,864,864 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:26:58,022,022 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=135
+2011-08-27 10:26:58,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DEB8>
+2011-08-27 10:26:58,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=135
+2011-08-27 10:26:58,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 135)]
+2011-08-27 10:26:58,053,053 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:02,862,862 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=133
+2011-08-27 10:27:02,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D760>
+2011-08-27 10:27:02,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=133
+2011-08-27 10:27:02,892,892 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 133)]
+2011-08-27 10:27:02,892,892 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:03,052,052 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=136
+2011-08-27 10:27:03,084,084 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D558>
+2011-08-27 10:27:03,084,084 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=136
+2011-08-27 10:27:03,085,085 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 136)]
+2011-08-27 10:27:03,085,085 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:07,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=134
+2011-08-27 10:27:07,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D8F0>
+2011-08-27 10:27:07,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=134
+2011-08-27 10:27:07,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 134)]
+2011-08-27 10:27:07,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:08,084,084 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=137
+2011-08-27 10:27:08,140,140 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D788>
+2011-08-27 10:27:08,141,141 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=137
+2011-08-27 10:27:08,141,141 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 137)]
+2011-08-27 10:27:08,141,141 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:12,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=135
+2011-08-27 10:27:12,950,950 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DD28>
+2011-08-27 10:27:12,950,950 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=135
+2011-08-27 10:27:12,951,951 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 135)]
+2011-08-27 10:27:12,951,951 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:13,140,140 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=138
+2011-08-27 10:27:13,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DDF0>
+2011-08-27 10:27:13,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=138
+2011-08-27 10:27:13,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 138)]
+2011-08-27 10:27:13,171,171 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:17,950,950 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=136
+2011-08-27 10:27:17,983,983 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02356508>
+2011-08-27 10:27:17,983,983 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=136
+2011-08-27 10:27:17,983,983 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 136)]
+2011-08-27 10:27:17,984,984 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:18,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=139
+2011-08-27 10:27:18,194,194 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D940>
+2011-08-27 10:27:18,194,194 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=139
+2011-08-27 10:27:18,194,194 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 139)]
+2011-08-27 10:27:18,194,194 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:22,983,983 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=137
+2011-08-27 10:27:23,042,042 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DF08>
+2011-08-27 10:27:23,042,042 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=137
+2011-08-27 10:27:23,042,042 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 137)]
+2011-08-27 10:27:23,042,042 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:23,194,194 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=140
+2011-08-27 10:27:23,246,246 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D3C8>
+2011-08-27 10:27:23,246,246 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=140
+2011-08-27 10:27:23,246,246 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 140)]
+2011-08-27 10:27:23,246,246 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:28,042,042 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=138
+2011-08-27 10:27:28,075,075 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DEE0>
+2011-08-27 10:27:28,075,075 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=138
+2011-08-27 10:27:28,075,075 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 138)]
+2011-08-27 10:27:28,075,075 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:28,246,246 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=141
+2011-08-27 10:27:28,278,278 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D328>
+2011-08-27 10:27:28,278,278 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=141
+2011-08-27 10:27:28,278,278 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 141)]
+2011-08-27 10:27:28,279,279 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:33,075,075 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=139
+2011-08-27 10:27:33,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D260>
+2011-08-27 10:27:33,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=139
+2011-08-27 10:27:33,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 139)]
+2011-08-27 10:27:33,105,105 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:33,276,276 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=142
+2011-08-27 10:27:33,308,308 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234D828>
+2011-08-27 10:27:33,308,308 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=142
+2011-08-27 10:27:33,308,308 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 142)]
+2011-08-27 10:27:33,309,309 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:38,104,104 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=140
+2011-08-27 10:27:38,131,131 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x0234DA08>
+2011-08-27 10:27:38,131,131 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=140
+2011-08-27 10:27:38,132,132 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 140)]
+2011-08-27 10:27:38,132,132 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:38,308,308 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=143
+2011-08-27 10:27:38,338,338 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343328>
+2011-08-27 10:27:38,338,338 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=143
+2011-08-27 10:27:38,338,338 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 143)]
+2011-08-27 10:27:38,339,339 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:43,138,138 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=141
+2011-08-27 10:27:43,168,168 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343C10>
+2011-08-27 10:27:43,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=141
+2011-08-27 10:27:43,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 141)]
+2011-08-27 10:27:43,170,170 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:43,338,338 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=144
+2011-08-27 10:27:43,371,371 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343AF8>
+2011-08-27 10:27:43,371,371 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=144
+2011-08-27 10:27:43,371,371 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 144)]
+2011-08-27 10:27:43,372,372 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:48,168,168 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=142
+2011-08-27 10:27:48,194,194 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023435F8>
+2011-08-27 10:27:48,194,194 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=142
+2011-08-27 10:27:48,194,194 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 142)]
+2011-08-27 10:27:48,194,194 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:48,372,372 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=145
+2011-08-27 10:27:48,404,404 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343800>
+2011-08-27 10:27:48,404,404 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=145
+2011-08-27 10:27:48,404,404 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 145)]
+2011-08-27 10:27:48,404,404 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:53,193,193 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=143
+2011-08-27 10:27:53,256,256 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343738>
+2011-08-27 10:27:53,257,257 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=143
+2011-08-27 10:27:53,257,257 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 143)]
+2011-08-27 10:27:53,257,257 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:53,404,404 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=146
+2011-08-27 10:27:53,431,431 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343968>
+2011-08-27 10:27:53,433,433 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=146
+2011-08-27 10:27:53,433,433 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 146)]
+2011-08-27 10:27:53,433,433 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:58,256,256 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=144
+2011-08-27 10:27:58,286,286 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343D00>
+2011-08-27 10:27:58,286,286 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=144
+2011-08-27 10:27:58,286,286 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 144)]
+2011-08-27 10:27:58,286,286 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:27:58,431,431 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=147
+2011-08-27 10:27:58,464,464 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343698>
+2011-08-27 10:27:58,464,464 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=147
+2011-08-27 10:27:58,464,464 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 147)]
+2011-08-27 10:27:58,466,466 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:03,286,286 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=145
+2011-08-27 10:28:03,313,313 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023433A0>
+2011-08-27 10:28:03,313,313 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=145
+2011-08-27 10:28:03,315,315 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 145)]
+2011-08-27 10:28:03,315,315 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:03,463,463 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=148
+2011-08-27 10:28:03,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343F80>
+2011-08-27 10:28:03,528,528 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=148
+2011-08-27 10:28:03,528,528 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 148)]
+2011-08-27 10:28:03,528,528 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:08,313,313 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=146
+2011-08-27 10:28:08,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343080>
+2011-08-27 10:28:08,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=146
+2011-08-27 10:28:08,344,344 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 146)]
+2011-08-27 10:28:08,344,344 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:08,526,526 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=149
+2011-08-27 10:28:08,558,558 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343918>
+2011-08-27 10:28:08,558,558 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=149
+2011-08-27 10:28:08,559,559 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 149)]
+2011-08-27 10:28:08,559,559 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:13,342,342 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=147
+2011-08-27 10:28:13,380,380 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023435D0>
+2011-08-27 10:28:13,381,381 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=147
+2011-08-27 10:28:13,381,381 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 147)]
+2011-08-27 10:28:13,381,381 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:13,558,558 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=150
+2011-08-27 10:28:13,589,589 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343238>
+2011-08-27 10:28:13,591,591 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=150
+2011-08-27 10:28:13,591,591 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 150)]
+2011-08-27 10:28:13,592,592 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:18,380,380 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=148
+2011-08-27 10:28:18,408,408 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023432B0>
+2011-08-27 10:28:18,408,408 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=148
+2011-08-27 10:28:18,410,410 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 148)]
+2011-08-27 10:28:18,410,410 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:18,596,596 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=151
+2011-08-27 10:28:18,628,628 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023439E0>
+2011-08-27 10:28:18,628,628 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=151
+2011-08-27 10:28:18,628,628 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 151)]
+2011-08-27 10:28:18,630,630 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:23,408,408 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=149
+2011-08-27 10:28:23,444,444 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343F58>
+2011-08-27 10:28:23,444,444 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=149
+2011-08-27 10:28:23,444,444 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 149)]
+2011-08-27 10:28:23,444,444 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:23,628,628 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=152
+2011-08-27 10:28:23,658,658 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343EB8>
+2011-08-27 10:28:23,660,660 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=152
+2011-08-27 10:28:23,660,660 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 152)]
+2011-08-27 10:28:23,660,660 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:28,444,444 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=150
+2011-08-27 10:28:28,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02343B20>
+2011-08-27 10:28:28,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=150
+2011-08-27 10:28:28,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 150)]
+2011-08-27 10:28:28,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:28,660,660 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=153
+2011-08-27 10:28:28,690,690 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346CD8>
+2011-08-27 10:28:28,690,690 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=153
+2011-08-27 10:28:28,690,690 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 153)]
+2011-08-27 10:28:28,690,690 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:33,473,473 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=151
+2011-08-27 10:28:33,503,503 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346378>
+2011-08-27 10:28:33,503,503 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=151
+2011-08-27 10:28:33,503,503 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 151)]
+2011-08-27 10:28:33,503,503 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:33,690,690 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=154
+2011-08-27 10:28:33,719,719 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346EE0>
+2011-08-27 10:28:33,720,720 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=154
+2011-08-27 10:28:33,720,720 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 154)]
+2011-08-27 10:28:33,720,720 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:38,503,503 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=152
+2011-08-27 10:28:38,532,532 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346210>
+2011-08-27 10:28:38,532,532 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=152
+2011-08-27 10:28:38,532,532 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 152)]
+2011-08-27 10:28:38,533,533 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:38,719,719 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=155
+2011-08-27 10:28:38,750,750 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346850>
+2011-08-27 10:28:38,750,750 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=155
+2011-08-27 10:28:38,752,752 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 155)]
+2011-08-27 10:28:38,752,752 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:43,532,532 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=153
+2011-08-27 10:28:43,562,562 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023468C8>
+2011-08-27 10:28:43,562,562 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=153
+2011-08-27 10:28:43,562,562 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 153)]
+2011-08-27 10:28:43,563,563 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:43,750,750 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=156
+2011-08-27 10:28:43,780,780 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023468F0>
+2011-08-27 10:28:43,782,782 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=156
+2011-08-27 10:28:43,782,782 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 156)]
+2011-08-27 10:28:43,782,782 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:48,562,562 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=154
+2011-08-27 10:28:48,592,592 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346940>
+2011-08-27 10:28:48,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=154
+2011-08-27 10:28:48,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 154)]
+2011-08-27 10:28:48,594,594 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:48,782,782 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=157
+2011-08-27 10:28:48,832,832 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346148>
+2011-08-27 10:28:48,832,832 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=157
+2011-08-27 10:28:48,832,832 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 157)]
+2011-08-27 10:28:48,834,834 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:53,605,605 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=155
+2011-08-27 10:28:53,631,631 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023461C0>
+2011-08-27 10:28:53,631,631 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=155
+2011-08-27 10:28:53,631,631 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 155)]
+2011-08-27 10:28:53,631,631 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:53,834,834 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=158
+2011-08-27 10:28:53,861,861 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346648>
+2011-08-27 10:28:53,861,861 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=158
+2011-08-27 10:28:53,861,861 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 158)]
+2011-08-27 10:28:53,861,861 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:58,631,631 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=156
+2011-08-27 10:28:58,660,660 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346A08>
+2011-08-27 10:28:58,660,660 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=156
+2011-08-27 10:28:58,660,660 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 156)]
+2011-08-27 10:28:58,661,661 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:28:58,861,861 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=159
+2011-08-27 10:28:58,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353D00>
+2011-08-27 10:28:58,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=159
+2011-08-27 10:28:58,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 159)]
+2011-08-27 10:28:58,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:03,660,660 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=157
+2011-08-27 10:29:03,688,688 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353D50>
+2011-08-27 10:29:03,690,690 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=157
+2011-08-27 10:29:03,690,690 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 157)]
+2011-08-27 10:29:03,690,690 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:03,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=160
+2011-08-27 10:29:03,926,926 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353B98>
+2011-08-27 10:29:03,927,927 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=160
+2011-08-27 10:29:03,927,927 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 160)]
+2011-08-27 10:29:03,927,927 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:08,690,690 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=158
+2011-08-27 10:29:08,719,719 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353D28>
+2011-08-27 10:29:08,720,720 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=158
+2011-08-27 10:29:08,720,720 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 158)]
+2011-08-27 10:29:08,720,720 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:08,926,926 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=161
+2011-08-27 10:29:08,979,979 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353AF8>
+2011-08-27 10:29:08,979,979 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=161
+2011-08-27 10:29:08,979,979 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 161)]
+2011-08-27 10:29:08,980,980 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:13,719,719 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=159
+2011-08-27 10:29:13,746,746 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353198>
+2011-08-27 10:29:13,747,747 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=159
+2011-08-27 10:29:13,747,747 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 159)]
+2011-08-27 10:29:13,747,747 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:13,979,979 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=162
+2011-08-27 10:29:14,010,010 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353B70>
+2011-08-27 10:29:14,010,010 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=162
+2011-08-27 10:29:14,010,010 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 162)]
+2011-08-27 10:29:14,012,012 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:18,746,746 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=160
+2011-08-27 10:29:18,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353828>
+2011-08-27 10:29:18,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=160
+2011-08-27 10:29:18,778,778 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 160)]
+2011-08-27 10:29:18,778,778 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:19,019,019 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=163
+2011-08-27 10:29:19,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023535D0>
+2011-08-27 10:29:19,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=163
+2011-08-27 10:29:19,051,051 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 163)]
+2011-08-27 10:29:19,051,051 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:23,776,776 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=161
+2011-08-27 10:29:23,834,834 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353850>
+2011-08-27 10:29:23,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=161
+2011-08-27 10:29:23,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 161)]
+2011-08-27 10:29:23,835,835 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:24,049,049 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=164
+2011-08-27 10:29:24,081,081 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023503A0>
+2011-08-27 10:29:24,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=164
+2011-08-27 10:29:24,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 164)]
+2011-08-27 10:29:24,082,082 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:28,834,834 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=162
+2011-08-27 10:29:28,862,862 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350E40>
+2011-08-27 10:29:28,862,862 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=162
+2011-08-27 10:29:28,864,864 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 162)]
+2011-08-27 10:29:28,864,864 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:29,081,081 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=165
+2011-08-27 10:29:29,111,111 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023508A0>
+2011-08-27 10:29:29,111,111 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=165
+2011-08-27 10:29:29,112,112 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 165)]
+2011-08-27 10:29:29,112,112 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:33,862,862 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=163
+2011-08-27 10:29:33,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02350800>
+2011-08-27 10:29:33,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=163
+2011-08-27 10:29:33,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 163)]
+2011-08-27 10:29:33,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:34,111,111 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=166
+2011-08-27 10:29:34,142,142 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023501E8>
+2011-08-27 10:29:34,144,144 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=166
+2011-08-27 10:29:34,144,144 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 166)]
+2011-08-27 10:29:34,144,144 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:38,891,891 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=164
+2011-08-27 10:29:38,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353D00>
+2011-08-27 10:29:38,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=164
+2011-08-27 10:29:38,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 164)]
+2011-08-27 10:29:38,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:39,141,141 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=167
+2011-08-27 10:29:39,171,171 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023460A8>
+2011-08-27 10:29:39,173,173 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=167
+2011-08-27 10:29:39,173,173 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 167)]
+2011-08-27 10:29:39,173,173 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:43,921,921 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=165
+2011-08-27 10:29:43,959,959 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02353D50>
+2011-08-27 10:29:43,959,959 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=165
+2011-08-27 10:29:43,960,960 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 165)]
+2011-08-27 10:29:43,960,960 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:44,176,176 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=168
+2011-08-27 10:29:44,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023468A0>
+2011-08-27 10:29:44,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=168
+2011-08-27 10:29:44,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 168)]
+2011-08-27 10:29:44,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:48,959,959 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=166
+2011-08-27 10:29:48,986,986 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346CB0>
+2011-08-27 10:29:48,986,986 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=166
+2011-08-27 10:29:48,987,987 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 166)]
+2011-08-27 10:29:48,987,987 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:49,240,240 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=169
+2011-08-27 10:29:49,270,270 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346C10>
+2011-08-27 10:29:49,270,270 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=169
+2011-08-27 10:29:49,270,270 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 169)]
+2011-08-27 10:29:49,272,272 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:53,986,986 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=167
+2011-08-27 10:29:54,017,017 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346508>
+2011-08-27 10:29:54,017,017 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=167
+2011-08-27 10:29:54,017,017 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 167)]
+2011-08-27 10:29:54,019,019 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:54,270,270 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=170
+2011-08-27 10:29:54,296,296 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x023465A8>
+2011-08-27 10:29:54,296,296 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=170
+2011-08-27 10:29:54,296,296 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 170)]
+2011-08-27 10:29:54,296,296 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:59,017,017 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=168
+2011-08-27 10:29:59,042,042 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346120>
+2011-08-27 10:29:59,042,042 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=168
+2011-08-27 10:29:59,042,042 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 168)]
+2011-08-27 10:29:59,042,042 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:29:59,296,296 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPPing object at 0x022D15D0> packetId=171
+2011-08-27 10:29:59,326,326 DEBUG [orbited.cometsession.TCPConnectionResource] new transport: <orbited.transports.longpoll.LongPollingTransport instance at 0x02346B20>
+2011-08-27 10:29:59,328,328 DEBUG [orbited.cometsession.TCPConnectionResource] ack ackId=171
+2011-08-27 10:29:59,328,328 DEBUG [orbited.cometsession.TCPConnectionResource] before ack unackQueue=[(<orbited.cometsession.TCPPing object at 0x022D15D0>, 171)]
+2011-08-27 10:29:59,328,328 DEBUG [orbited.cometsession.TCPConnectionResource] after ack unackQueue=[]
+2011-08-27 10:30:00,321,321 DEBUG [orbited.cometsession.TCPConnectionResource] close reason=loseConnection <orbited.cometsession.TCPConnectionResource instance at 0x02343CB0>
+2011-08-27 10:30:00,321,321 DEBUG [orbited.cometsession.TCPConnectionResource] connectionLost... already triggered? False
+2011-08-27 10:30:00,322,322 DEBUG [orbited.cometsession.TCPConnectionResource] do trigger
+2011-08-27 10:30:00,323,323 DEBUG [orbited.cometsession.TCPConnectionResource] close reason=loseConnection <orbited.cometsession.TCPConnectionResource instance at 0x02353EB8>
+2011-08-27 10:30:00,323,323 DEBUG [orbited.cometsession.TCPConnectionResource] _send data=<orbited.cometsession.TCPClose object at 0x02332F10> packetId=172
+2011-08-27 10:30:00,325,325 DEBUG [orbited.cometsession.TCPConnectionResource] connectionLost... already triggered? False
+2011-08-27 10:30:00,325,325 DEBUG [orbited.cometsession.TCPConnectionResource] do trigger

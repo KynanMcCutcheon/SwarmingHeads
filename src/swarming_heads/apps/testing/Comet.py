@@ -1,12 +1,15 @@
 from SimpleXMLRPCServer import SimpleXMLRPCRequestHandler, SimpleXMLRPCServer
 from stompservice.client import StompClientFactory
-from swarming_heads.settings import RPC_SERVER_HOST, RPC_SERVER_PORT, \
-    STOMP_HOST, STOMP_PORT
+from subprocess import CalledProcessError
+from swarming_heads.settings import RPC_SERVER_HOST, RPC_SERVER_PORT, STOMP_HOST, \
+    STOMP_PORT, ORBITED_CONFIG_FILE
 from threading import Thread
 from twisted.internet.selectreactor import SelectReactor
 import exceptions
 import logging
 import simplejson
+import subprocess
+import sys
 
 class CometMessageSender(StompClientFactory):
     def recv_connected(self, msg):
@@ -37,21 +40,37 @@ class RPCServer(Thread):
                                     requestHandler = RequestHandler)
 
         server.register_introspection_functions()
+        
         def transmit_orbited(channel, message):
             self.orbited.send_data(channel, message)
             return ""
 
         server.register_function(transmit_orbited, 'transmit')
         server.serve_forever()
-        
+
+class OrbitedServer(Thread):
+    def __init__(self):
+        Thread.__init__(self)
+        self.setDaemon(True)
+        self.orbited_command = ['orbited', '--config=' + ORBITED_CONFIG_FILE ]
+    
+    def run(self):
+        try:
+            subprocess.check_call(self.orbited_command)
+        except CalledProcessError as e:
+            logging.critical('Error running orbited server. Exiting..')
+            sys.exit(1)
+
 class Comet(Thread):
     def __init__(self):
         Thread.__init__(self)
         self.setDaemon(True)
+        self.orbited_server = OrbitedServer()
         self.orbited_proxy = CometMessageSender()
         self.rpcthread = RPCServer(self.orbited_proxy)
 
     def run(self):
+        self.orbited_server.start()
         self.rpcthread.start()
         r = SelectReactor()
         r.connectTCP(STOMP_HOST, STOMP_PORT, self.orbited_proxy)

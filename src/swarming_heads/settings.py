@@ -21,6 +21,8 @@ STOMP_PORT = 61613
 ORBITED_HOST = '127.0.0.1'
 ORBITED_PORT = 9000
 
+ORBITED_CONFIG_FILE = os.path.join(SITE_ROOT, 'orbited.cfg')
+
 # May not be needed?
 ADMINS = (
     # ('Your Name', 'your_email@example.com'),
