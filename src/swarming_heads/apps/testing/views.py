@@ -1,9 +1,9 @@
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
-from swarming_heads.settings import RPC_SERVER_HOST, RPC_SERVER_PORT
+from swarming_heads.settings import RPC_SERVER_HOST, RPC_SERVER_PORT, \
+    ORBITED_HOST, ORBITED_PORT, STOMP_HOST, STOMP_PORT
 import logging
-import sys
 import xmlrpclib
 
 # Some sample views
@@ -66,10 +66,15 @@ def dynamic_test(request, user_id):
     return render_to_response(template_file, mappings, 
                               context_instance=RequestContext(request))
 
-
 def comet_test(request):
-    template_file = 'testing/comet_test.html'
-    return render_to_response(template_file,{}, context_instance=RequestContext(request))
+    template_file = 'testing/comet_test.html' 
+    
+    mappings = {'stomp_host' :   STOMP_HOST,
+                'stomp_port' :   STOMP_PORT,
+                'orbited_host' : ORBITED_HOST,
+                'orbited_port' : ORBITED_PORT,
+                'server_host' :  request.get_host()}
+    return render_to_response(template_file,mappings, context_instance=RequestContext(request))
     
 def xhr(request):
     """
@@ -81,7 +86,7 @@ def xhr(request):
         message = request.GET['message']
     else:
         logging.warning('Couldnt find message value in GET request')
-    
+
     # send the message across
     proxy = xmlrpclib.ServerProxy('http://' + RPC_SERVER_HOST + ':' + str(RPC_SERVER_PORT))
 
@@ -90,6 +95,8 @@ def xhr(request):
         proxy.transmit("/topic/shouts", message)
     except xmlrpclib.Fault as e:
         logging.error('Error transmitting message: ' + e)
+    except:
+        logging.error('Unknown error occured: ' + e)
 
     # That's it, thread's not locked
     return HttpResponse("OK")

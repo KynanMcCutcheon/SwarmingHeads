@@ -3,22 +3,20 @@
     document.domain = document.domain; // I don't know why
     // we need to do this, but we just need to
 </script>
+
 <script type="text/javascript" src="{{ STATIC_URL }}js/Orbited.js"></script>
-<script>
-    // set the orbited settings and port
-    Orbited.settings.port = 9000;
-    Orbited.settings.hostname = "127.0.0.1";
-    //Orbited.settings.streaming = false;
-    TCPSocket = Orbited.TCPSocket;
-</script>
 
 <script src="{{ STATIC_URL }}js/protocols/stomp/stomp.js"></script>
 
-<script type="text/javascript"
-	src="{{ STATIC_URL }}js/jquery-1.6.2.min.js"
-></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.6.2.min.js"></script>
 
-<script>
+<script type="text/javascript">
+    Orbited.settings.hostname = '{{ orbited_host }}';
+    Orbited.settings.port = {{ orbited_port }};
+    TCPSocket = Orbited.TCPSocket;
+</script>
+
+<script type="text/javascript">
     var add_message = function(payload){
         var message1 = payload.toString();
         message_div = document.createElement("div");
@@ -54,7 +52,7 @@
             add_message(frame.body);
         };
         
-        stomp.connect('127.0.0.1', 61613);
+        stomp.connect('{{ stomp_host }}', {{ stomp_port }} );
         
         $('#send_shout').click(function(){
     		// send an XMLHttpRequest to /xhr
@@ -62,7 +60,7 @@
 
     		$.ajax({
     			type:'GET',
-    			url:'http://127.0.0.1:8000/test/comet_test/xhr/',
+    			url:'http://{{ server_host }}/test/comet_test/xhr/',
     			data:{
     			'message':message_text,
     			},

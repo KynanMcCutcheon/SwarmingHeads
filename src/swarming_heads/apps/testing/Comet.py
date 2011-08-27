@@ -1,7 +1,7 @@
 from SimpleXMLRPCServer import SimpleXMLRPCRequestHandler, SimpleXMLRPCServer
 from stompservice.client import StompClientFactory
 from swarming_heads.settings import RPC_SERVER_HOST, RPC_SERVER_PORT, \
-    ORBITED_HOST, ORBITED_PORT
+    STOMP_HOST, STOMP_PORT
 from threading import Thread
 from twisted.internet.selectreactor import SelectReactor
 import exceptions
@@ -38,7 +38,6 @@ class RPCServer(Thread):
 
         server.register_introspection_functions()
         def transmit_orbited(channel, message):
-
             self.orbited.send_data(channel, message)
             return ""
 
@@ -55,5 +54,5 @@ class Comet(Thread):
     def run(self):
         self.rpcthread.start()
         r = SelectReactor()
-        r.connectTCP(ORBITED_HOST, ORBITED_PORT, self.orbited_proxy)
+        r.connectTCP(STOMP_HOST, STOMP_PORT, self.orbited_proxy)
         r.run(installSignalHandlers=0)

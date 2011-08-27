@@ -6,6 +6,7 @@ import sys
 #Setup logging for the application
 try:
     logging.basicConfig(filename=LOG_FILE, level=LOG_LEVEL, format='%(asctime)s - %(levelname)s - %(message)s')
+    logging.info('Logging started')
 except:
     sys.stderr.write('Error setting up logging: ' + sys.exc_info()[0] + ' . Logging may not work\n')
 
