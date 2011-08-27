@@ -22,6 +22,9 @@ ORBITED_HOST = '127.0.0.1'
 ORBITED_PORT = 9000
 
 ORBITED_CONFIG_FILE = os.path.join(SITE_ROOT, 'orbited.cfg')
+ORBITED_START_COMMAND =  ['orbited', '--config=' + ORBITED_CONFIG_FILE]
+
+EM_CONFIG_FILE = os.path.join(SITE_ROOT, 'em_interface.cfg')
 
 # May not be needed?
 ADMINS = (
@@ -120,6 +123,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+    'apps.eminterface',
     'apps.testing'
 )
 

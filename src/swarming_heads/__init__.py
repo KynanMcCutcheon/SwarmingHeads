@@ -1,6 +1,13 @@
-from swarming_heads.apps.testing.Comet import Comet
-from swarming_heads.settings import LOG_FILE, LOG_LEVEL
+from swarming_heads.Util import Util
+from swarming_heads.apps.eminterface.ClientConnection import ClientConnection
+from swarming_heads.apps.eminterface.Configuration import Configuration
+from swarming_heads.apps.testing.Comet import Comet, OrbitedServer, \
+    CometMessageSender, RPCServer
+from swarming_heads.settings import LOG_FILE, LOG_LEVEL, EM_CONFIG_FILE
 import logging
+import os
+import psutil #from http://code.google.com/p/psutil/
+import signal
 import sys
 
 #Setup logging for the application
@@ -8,15 +15,33 @@ try:
     logging.basicConfig(filename=LOG_FILE, level=LOG_LEVEL, format='%(asctime)s - %(levelname)s - %(message)s')
     logging.info('Logging started')
 except:
-    sys.stderr.write('Error setting up logging: ' + sys.exc_info()[0] + ' . Logging may not work\n')
+    sys.stderr.write('Error setting up logging: ' + str(sys.exc_info()[1]) + ' . Logging may not work\n')
 
+#Setup the comet server components
 try:
+    
     logging.info('Starting comet server')
-    c = Comet()
+
+    c = Comet()    
     c.start()
+
     logging.info('Comet server running')
 except:
-    logging.critical('Error starting up the comet server: ' + sys.exc_info()[0] \
+    logging.critical('Error starting up the comet server: ' + str(sys.exc_info()[1]) \
                      + '. Exiting server..')
-    sys.exit(1)
+    Util.clean_exit(1)
+    
+#Setup the event manager interface library
+EM_INTERFACE = None
+try:
+    config = Configuration(EM_CONFIG_FILE);
+    config.load()  
+    EM_INTERFACE = ClientConnection(config)
+    
+    success, err_msg = EM_INTERFACE.connect()
+    if not success:
+        raise Exception(err_msg)
+except:
+    logging.critical('Error connecting to event manager: ' + str(sys.exc_info()[1]) + '. Exiting..')
+    Util.clean_exit(1)
     

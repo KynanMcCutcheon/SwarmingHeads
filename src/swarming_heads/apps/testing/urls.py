@@ -19,12 +19,11 @@ urlpatterns = patterns('',
     
     #An example showing off AJAX & comet capabilities
     url(r'^dynamic_test/(?P<user_id>\d+)/$', 'apps.testing.views.dynamic_test'),
-    
-    #this url handles the AJAX submit of the dynamic_test.
     url(r'^dynamic_test/(?P<user_id>\d+)/set_username/$', 'apps.testing.views.set_username'),
     
     url(r'^comet_test/$', 'apps.testing.views.comet_test'),
-    
-    #For the comet example
     url(r'^comet_test/xhr/$', 'apps.testing.views.xhr'),
+    
+    url(r'^em_test/$', 'apps.testing.views.em_test'),
+    url(r'^em_test/message/$', 'apps.testing.views.send_message'),
 )
