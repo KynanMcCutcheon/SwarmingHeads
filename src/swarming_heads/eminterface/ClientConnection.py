@@ -24,6 +24,7 @@ class ClientConnection(object):
         self.is_connected = False
         
     def send_message(self, message):
+        #Takes an EventMessage object and sends the message
         return self.handler.send_string(message.toString())
         
     def send_raw_string(self, str):

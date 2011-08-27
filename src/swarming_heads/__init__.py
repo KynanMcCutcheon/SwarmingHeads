@@ -1,8 +1,8 @@
 from swarming_heads.Util import Util
-from swarming_heads.apps.eminterface.ClientConnection import ClientConnection
-from swarming_heads.apps.eminterface.Configuration import Configuration
 from swarming_heads.apps.testing.CometComponents import Comet, OrbitedServer, \
     CometMessageSender, RPCServer
+from swarming_heads.eminterface.Configuration import Configuration
+from swarming_heads.eminterface.ClientConnection import ClientConnection
 from swarming_heads.settings import LOG_FILE, LOG_LEVEL, EM_CONFIG_FILE
 import logging
 import os

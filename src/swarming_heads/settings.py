@@ -97,7 +97,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
-    'apps.eminterface',
-    'apps.testing'
+    'apps.testing',
 )
 
