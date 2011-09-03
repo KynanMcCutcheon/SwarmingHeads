@@ -76,14 +76,14 @@ class Comet(Thread):
     def __init__(self):
         Thread.__init__(self, name="CometThread")
         self.setDaemon(True)
-        self.orbited_server = OrbitedServer()
+        #self.orbited_server = OrbitedServer()
         self.orbited_proxy = CometMessageSender()
         self.rpcthread = RPCServer(self.orbited_proxy)
         self.host = STOMP_HOST
         self.port = STOMP_PORT
 
     def run(self):
-        self.orbited_server.start()
+        #self.orbited_server.start()
         self.rpcthread.start()
 
         r = SelectReactor()
