@@ -115,3 +115,28 @@ class EventMessage(object):
         return retval
         
         
+class EventMessageBuilder(object):
+    '''
+    Conveinience class to help build valid event messages
+    
+    TODO: Add some validation to build()
+    '''
+    def __init__(self):
+        self.event_type = None
+        self.client_name = None
+        self.event_name = None
+        self.event_content = None
+        self.event_destination = None
+        self.need_client = None
+        self.need_event = None
+        self.provide_event = None
+    
+    def build(self):
+        return EventMessage(self.event_type,
+                            self.client_name,
+                            self.event_name,
+                            self.event_content,
+                            self.event_destination,
+                            self.need_client,
+                            self.need_event,
+                            self.provide_event)
