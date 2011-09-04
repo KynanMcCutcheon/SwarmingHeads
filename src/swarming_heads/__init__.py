@@ -1,5 +1,5 @@
 from swarming_heads.Util import Util
-from swarming_heads.apps.testing.CometComponents import Comet, OrbitedServer, \
+from swarming_heads.apps.testing.CometComponents import Comet, \
     CometMessageSender, RPCServer
 from swarming_heads.eminterface.ClientConnection import ClientConnection
 from swarming_heads.eminterface.Configuration import Configuration

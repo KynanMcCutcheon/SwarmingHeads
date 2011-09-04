@@ -6,6 +6,7 @@ Created on Aug 21, 2011
 
 from EventMessage import EventMessage
 from swarming_heads.apps.testing.CometComponents import Comet
+from swarming_heads.eminterface.Events import EventType
 from threading import Thread
 import logging
 import socket
@@ -23,22 +24,9 @@ class ClientConnection(object):
         self.handler = TcpHandler(self.config.host, self.config.port)
         self.is_connected = False
         
-    def send_message(self, message):
-        #Takes an EventMessage object and sends the message
-        return self.handler.send_string(message.toString())
-        
+       
     def send_raw_string(self, str):
         return self.handler.send_string(str)
-        
-    def send_client_message(self,to, message):
-        return self.handler.send_string('MSG EV:EVENT EN:ANSWER_THIS NM:client3 EC:*' + message + '* TC:' + to)
-    
-    def toggle_system_monitor(self, subscribe):
-        if subscribe:
-            return self.handler.send_raw_string('MSG EV:NEW NM:SYSTEM_MONITOR')
-        else:
-            return self.handler.send_raw_string('MSG EV:DEL NM:SYSTEM_MONITOR')
-    
                 
     def connect(self, rc=None, re=None, pe=None):
         if self.is_connected:
@@ -50,7 +38,7 @@ class ClientConnection(object):
             self.handler.connect()
             
             #Build & send the connection string
-            str = 'MSG EV:NEW NM:' + self.config.client_name
+            str = 'MSG EV:' + EventType.NEW + ' NM:' + self.config.client_name
             
             if rc is not None:
                 str += EventMessage.MSG_DELIM + EventMessage.RC_TOKEN + EventMessage.PAIR_SEPARATOR + rc
@@ -78,7 +66,7 @@ class ClientConnection(object):
             logging.info("Attempting to disconnect a client which wasn't connected")
             return False, 'This client was not connected'
         
-        success, message = self.handler.send_string('MSG EV:DEL NM:' + self.config.client_name)
+        success, message = self.handler.send_string('MSG EV:' + EventType.DELETE + ' NM:' + self.config.client_name)
         
         if success:
             logging.info('Successfully disconnected from event manager')
