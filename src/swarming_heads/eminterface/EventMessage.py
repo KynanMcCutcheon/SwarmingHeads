@@ -17,6 +17,7 @@ class EventMessage(object):
     MSG_SPACE_SUB = '<%_>'    
     PAIR_SEPARATOR = ':'
     MSG_DELIM = ' '
+    MSG_ARG_DELIM = '*'
     MSG_TOKEN = 'MSG '
     MSG_HEAD_TOKEN = 'MSGHEAD'
     EV_TOKEN = 'EV'
