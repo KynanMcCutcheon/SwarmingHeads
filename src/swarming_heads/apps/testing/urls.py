@@ -17,6 +17,12 @@ urlpatterns = patterns('',
     #this url handles a submit of the form_test.
     url(r'^form_test/(?P<user_id>\d+)/set_username/$', 'apps.testing.views.set_username'),
     
+    #E.g. http://127.0.0.1:8000/test/login_test
+    url(r'^login_test$', 'apps.testing.views.login_test'),
+    
+    #this url handles a submit of the login_test.
+    url(r'^login_test/login/$', 'apps.testing.views.login_handler'),
+    
     #An example showing off AJAX & comet capabilities
     url(r'^dynamic_test/(?P<user_id>\d+)/$', 'apps.testing.views.dynamic_test'),
     url(r'^dynamic_test/(?P<user_id>\d+)/set_username/$', 'apps.testing.views.set_username'),

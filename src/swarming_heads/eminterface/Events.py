@@ -1,7 +1,6 @@
 '''
 Created on Sep 4, 2011
 
-@author: Daniel Grech
 '''
 
 class EventType(object):

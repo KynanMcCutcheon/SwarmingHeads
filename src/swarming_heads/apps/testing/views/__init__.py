@@ -6,3 +6,4 @@ from EMTestHandlers import *
 from CometTestHandlers import *
 from AjaxTestHandlers import *
 from BasicTestHandlers import *
+from Login import *
