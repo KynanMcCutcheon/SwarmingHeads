@@ -9,7 +9,7 @@ from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from swarming_heads import EM_INTERFACE
-from swarming_heads.apps.testing.CometComponents import Comet
+from swarming_heads.eminterface.CometComponents import Comet
 from swarming_heads.eminterface.EventMessage import EventMessage, \
     EventMessageBuilder
 from swarming_heads.eminterface.Events import EventType, EventList

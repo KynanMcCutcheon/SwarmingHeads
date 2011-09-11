@@ -6,7 +6,7 @@ Created on Aug 27, 2011
 from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
-from swarming_heads.apps.testing.CometComponents import Comet
+from swarming_heads.eminterface.CometComponents import Comet
 from swarming_heads.settings import STOMP_HOST, STOMP_PORT, ORBITED_HOST, \
     ORBITED_PORT
 import logging
