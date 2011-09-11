@@ -22,9 +22,6 @@ STOMP_PORT = 61613
 ORBITED_HOST = '127.0.0.1'
 ORBITED_PORT = 9000
 
-ORBITED_CONFIG_FILE = os.path.join(SITE_ROOT, 'orbited.cfg')
-ORBITED_START_COMMAND =  ['orbited', '--config=' + ORBITED_CONFIG_FILE]
-
 EM_CONFIG_FILE = os.path.join(SITE_ROOT, 'em_interface.cfg')
 
 SECRET_KEY = '+i%4%7_9u(j*1)o*zroago98np-z1z81##$1^2*@eu01ckl183'
@@ -99,5 +96,6 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'django.contrib.admindocs',
     'apps.testing',
+    'apps.swarmingHeads',
 )
 

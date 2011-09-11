@@ -18,4 +18,10 @@ urlpatterns = patterns('',
     
     #Url to catch the homepage
     url(r'^$', 'django.views.generic.simple.direct_to_template', {'template': 'index.html'}),
+    
+    #Login page
+    url(r'^login$', 'apps.swarmingHeads.views.login'),
+    
+    #Most other pages are in the swarming heads app
+    url(r'^login$', include('apps.swarmingHeads.urls')),
 )
