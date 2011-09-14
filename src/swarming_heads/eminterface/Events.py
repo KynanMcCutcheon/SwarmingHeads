@@ -34,12 +34,8 @@ class EventList(object):
     '''
     
     # Commands for robot movement
-    MOVE_LEFT = 'MV_L' #Argument: Distance to move
-    MOVE_RIGHT = 'MV_R' #Argument: Distance to move
-    MOVE_FORWARD = 'MV_F' #Argument: Distance to move
-    MOVE_BACKWARD = 'MV_B' #Argument: Distance to move
-    ROTATE_LEFT = 'RT_L' #Argument: Rotation amount in degrees
-    ROTATE_RIGHT = 'RT_R' #Argument: Rotation amount in degrees
+    ROBOT_SPEED = 'RB_S' #Argument: Velocity in m/s (ie forward +ve, backwards -ve)
+    ROBOT_TURNRATE = 'RB_T' #Argument:Turnrate rad/s (Clockwise +ve, ccw -ve)
     
     TEXT_MESSAGE = 'TXT' #Argument: A string message to send
     
