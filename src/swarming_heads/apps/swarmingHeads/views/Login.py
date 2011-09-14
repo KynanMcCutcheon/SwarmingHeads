@@ -19,6 +19,17 @@ def login_page(request):
     
     
 def login_handler(request):    
+    # KYNAN/DOM: ADD ERROR HANDLING!
+    # If it cant find 'username' below, bad things happen
+    # E.g. go to http://127.0.0.1:8000/swarmingHeads/login/handler
+    # directly and watch it crash and burn :)
+    #
+    # Add and exception handler around the bottom 2 lines
+    #    IF (HasException)
+    #        Redirect to error page/login page
+    #    ELSE
+    #        Continue as normal
+    
     username = request.POST['username']
     password = request.POST['password']
     
@@ -33,7 +44,7 @@ def login_handler(request):
             #    Go to some 'admin' page
             # Else if isUser
             #    Go to 'main' page
-            return HttpResponse("LOGIN SUCCESSFUL")
+            return HttpResponse("LOGIN SUCCESSFUL, Thanks " + user.username)
             
         else:
             # Show a message to user saying to contact administrator
