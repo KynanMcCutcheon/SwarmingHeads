@@ -1,5 +1,6 @@
 from django.conf.urls.defaults import patterns, include, url
 from django.contrib import admin
+from django.views.generic.simple import redirect_to
 
 admin.autodiscover()
 
@@ -19,9 +20,11 @@ urlpatterns = patterns('',
     #Url to catch the homepage
     url(r'^$', 'django.views.generic.simple.direct_to_template', {'template': 'index.html'}),
     
-    #Login page
-    url(r'^login$', 'apps.swarmingHeads.views.login'),
-    
     #Most other pages are in the swarming heads app
-    url(r'^login$', include('apps.swarmingHeads.urls')),
+    url(r'^swarmingHeads/', include('apps.swarmingHeads.urls')),
+    
+    #NOTE: From here down are page redirects
+    #    E.g. the first one allows users to browse to http://127.0.0.1:8000/login
+    #         and be redirected to http://127.0.0.1:8000/swarminHeads/login
+    (r'^login$', redirect_to, {'url': 'swarmingHeads/login'}),
 )

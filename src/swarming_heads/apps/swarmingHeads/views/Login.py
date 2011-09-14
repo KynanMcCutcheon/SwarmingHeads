@@ -8,10 +8,10 @@ from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 
-def login(request):
+def login_page(request):
     # Login page goes here!
     
-    template_file = 'testing/login_test.html'
+    template_file = 'swarmingHeads/login.html'
     mappings = {}
 
     return render_to_response(template_file, mappings, 
