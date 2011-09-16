@@ -19,6 +19,7 @@ html, body {
 #container {
 	margin-left:10%;
 	margin-right:10%;
+	min-width: 1000px;
 	background: #FFF;
 	margin-bottom:-50px;
 	min-height:100%;
