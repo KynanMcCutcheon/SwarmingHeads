@@ -28,7 +28,7 @@ class ClientConnection(object):
     def send_raw_string(self, str):
         return self.handler.send_string(str)
                 
-    def connect(self, rc=None, re=None, pe=None):
+    def connect(self, name, rc=None, re=None, pe=None):
         if self.is_connected:
             logging.info('Attempting to connect a client which is already connected')
             return False, 'This client is already connected'
@@ -38,7 +38,7 @@ class ClientConnection(object):
             self.handler.connect()
             
             #Build & send the connection string
-            str = 'MSG EV:' + EventType.NEW + ' NM:' + self.config.client_name
+            str = 'MSG EV:' + EventType.NEW + ' NM:' + name
             
             if rc is not None:
                 str += EventMessage.MSG_DELIM + EventMessage.RC_TOKEN + EventMessage.PAIR_SEPARATOR + rc

@@ -23,6 +23,7 @@ urlpatterns = patterns('',
     #Most other pages are in the swarming heads app
     url(r'^swarmingHeads/', include('apps.swarmingHeads.urls')),
     
+    url(r'^em_test$', 'apps.testing.views.em_test'),
     
     #============================================================================
     #NOTE: From here down are page redirects

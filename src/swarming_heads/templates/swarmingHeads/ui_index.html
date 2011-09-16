@@ -1,0 +1,140 @@
+{% extends "swarmingHeads/ui_base.html" %}
+
+{% block title %}Index{% endblock %}
+
+{% block headcontents %}
+	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/uistyle.css" />
+	<script type="text/javascript" src="{{ STATIC_URL }}js/controlScript.js"></script>
+	
+	<script type="text/javascript">
+			document.domain = "{{ orbited_host }}" 
+			Orbited.settings.hostname = '{{ orbited_host }}';
+			Orbited.settings.port = {{ orbited_port }};
+			TCPSocket = Orbited.TCPSocket;
+		</script>
+		
+		<script type="text/javascript">	
+			var add_message = function(payload){
+				var message1 = payload.toString();
+				message_div = document.createElement("div");
+				message_div.innerHTML = message1;
+				document.getElementById("messages").appendChild(message_div);
+			};
+	
+			// execute once the document is ready
+			$(document).ready(function(){
+				stomp = new STOMPClient();
+				stomp.onopen = function(){
+					//console.log("opening stomp client");
+				};
+				stomp.onclose = function(c){
+					alert('Lost Connection, Code: ' + c);
+				};
+				stomp.onerror = function(error){
+					alert("Error: " + error);
+				};
+				stomp.onerrorframe = function(frame){
+					alert("Error: " + frame.body);
+				};
+				stomp.onconnectedframe = function(){
+					//console.log("Connected. Subscribing");
+					//alert("subscribing");
+					stomp.subscribe("/em/message");
+				};
+				stomp.onmessageframe = function(frame){
+					// Presumably we should only receive message frames with the
+					// destination "/topic/shouts" because that's the only destination
+					// to which we've subscribed. To handle multiple destinations we
+					// would have to check frame.headers.destination.
+					add_message(frame.body);
+				};
+			        
+				stomp.connect('{{ stomp_host }}', {{ stomp_port }} );
+			        
+				$('#send_shout').click(function(){
+					// send an XMLHttpRequest to /xhr
+					var message_text = document.getElementById('shout_text').value;
+	
+					$.ajax({
+						type:'GET',
+						url:'http://{{ server_host }}/swarmingHeads/message/send/',
+						data:{
+							'message':message_text,
+						},
+					});
+				});
+			});
+		</script>
+	
+{% endblock %}
+
+{% block body %}
+	<div id="viewpanel">
+		<div id="viewport">
+			This is the viewport for the camera and overlapping 2d map (via button toggling)
+		</div>
+		
+		<div id="chatbox">
+			<div id="messages">
+				<div class="msg_user">
+					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+					<div class="msg_content"><div class="bumpright">Here is where the message itself will be.</div></div>
+					<div class="msg_date">11:30 A.M.</div>
+				</div>
+				
+				<div class="msg_user">
+					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+					<div class="msg_content"><div class="bumpright">This is another one</div></div>
+					<div class="msg_date">11:31 A.M.</div>
+				</div>
+				
+				<div class="msg_user">
+					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+					<div class="msg_content"><div class="bumpright">To demonstrate the spacing and scrolling</div></div>
+					<div class="msg_date">11:32 A.M.</div>
+				</div>
+				
+				<div class="msg_user">
+					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+					<div class="msg_content"><div class="bumpright">Lorem this Ipsum.</div></div>
+					<div class="msg_date">11:33 A.M.</div>
+				</div>
+				
+				<div class="msg_user">
+					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+					<div class="msg_content"><div class="bumpright">
+						This is an example of a sentence that takes more than one line to cover.  All cases need to be covered in this area.
+					</div></div>
+					<div class="msg_date">11:33 A.M.</div>
+				</div>
+			</div>
+			
+			<div id="shoutbox">
+				{% csrf_token %}
+				<textarea id="shout_text"></textarea><br />
+				<div id="send_shout_div">
+					<button id="send_shout">Send Message</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="controlpanel">
+		<div id="servlog">
+			Here is where server messages not related to the chat will be.
+		</div>
+		
+		<div id="controller">
+			Control Box
+			
+			<div id="controlui">
+				<div class="movebutton"><div id="move_up"><div id="btn_up"></div></div></div>
+				<div class="movebutton"><div id="move_right"><div id="btn_right"></div></div></div>
+				<div class="movebutton"><div id="move_down"><div id="btn_down"></div></div></div>
+				<div class="movebutton"><div id="move_left"><div id="btn_left"></div></div></div>
+				<div id="camtoggle">
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}

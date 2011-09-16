@@ -74,7 +74,7 @@ class Comet(Thread):
     @staticmethod  
     def push_message(message):
         try:
-            Comet.RPC_PROXY.transmit("/topic/shouts", message)
+            Comet.RPC_PROXY.transmit("/em/message", message)
         except xmlrpclib.Fault as e:
             logging.error('Error transmitting message: ' + e)
         except:

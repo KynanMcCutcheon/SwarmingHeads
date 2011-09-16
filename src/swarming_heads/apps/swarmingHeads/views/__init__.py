@@ -3,3 +3,4 @@
 # but allows for better code refactoring/structure
 
 from Login import *
+from Comet import *
