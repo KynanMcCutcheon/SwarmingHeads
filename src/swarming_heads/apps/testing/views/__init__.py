@@ -7,3 +7,4 @@ from CometTestHandlers import *
 from AjaxTestHandlers import *
 from BasicTestHandlers import *
 from Login import *
+from HookboxHandlers import *

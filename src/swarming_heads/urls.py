@@ -10,6 +10,15 @@ urlpatterns = patterns('',
     # Urls for our static files..
     url(r'^static/(?P<path>.*)', 'django.views.static.serve'),
     
+    # Temporary test for Hookbox
+    url(r'^hookbox_test$', 'apps.testing.views.home', name="home"),
+    
+    # Urls for comet messaging
+    (r'^hookbox/connect$', 'apps.testing.views.connect'),
+    (r'^hookbox/create_channel$', 'apps.testing.views.create_channel'),
+    (r'^hookbox/subscribe', 'apps.testing.views.subscribe'),
+    (r'^hookbox/publish', 'apps.testing.views.publish'),
+    
     # Urls to handle admin work
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
     url(r'^admin/', include(admin.site.urls)),

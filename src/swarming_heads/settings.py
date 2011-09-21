@@ -2,6 +2,7 @@
 
 import logging
 import os
+import hookbox
 
 # Keep all references relative to this file
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
@@ -21,6 +22,17 @@ STOMP_PORT = 61613
 
 ORBITED_HOST = '127.0.0.1'
 ORBITED_PORT = 9000
+
+HOOKBOX_PORT = 8001
+HOOKBOX_INTERFACE = '127.0.0.1'
+
+HOOKBOX_CBHOST = '127.0.0.1'
+HOOKBOX_CBPORT = 8000
+
+
+
+
+
 
 EM_CONFIG_FILE = os.path.join(SITE_ROOT, 'em_interface.cfg')
 
