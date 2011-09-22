@@ -1,0 +1,1 @@
+hookbox -a password --cbhost=127.0.0.1 --cbport=8000 -s secret -r secret
