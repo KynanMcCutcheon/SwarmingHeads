@@ -4,7 +4,7 @@ Created on Sep 16, 2011
 from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
-from swarming_heads.eminterface.MessagePassing import send_message
+from swarming_heads.apps.hb.views import send_message
 from swarming_heads.settings import HOOKBOX_PORT, HOOKBOX_HOST
 
 def interface(request):

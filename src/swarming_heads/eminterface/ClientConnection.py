@@ -5,14 +5,12 @@ Created on Aug 21, 2011
 '''
 
 from EventMessage import EventMessage
+from swarming_heads.apps.hb.views import push_message
 from swarming_heads.eminterface.Events import EventType
-from swarming_heads.settings import HOOKBOX_HOST, HOOKBOX_PORT
 from threading import Thread
 import logging
 import socket
 import sys
-import urllib
-import urllib2
 
 class ClientConnection(object):
     '''
@@ -26,11 +24,11 @@ class ClientConnection(object):
         self.handler = TcpHandler(self.config.host, self.config.port)
         self.is_connected = False
         
-       
     def send_raw_string(self, str):
         return self.handler.send_string(str)
                 
     def connect(self, name, rc=None, re=None, pe=None):
+        print 'CONNECTING'
         if self.is_connected:
             logging.info('Attempting to connect a client which is already connected')
             return False, 'This client is already connected'
@@ -54,6 +52,7 @@ class ClientConnection(object):
             self.handler.send_string(str)
             
             #Now that we are connected, start a thread to listen for events
+            print 'STARTING THE HANDLER THREAD'
             self.handler.start()
         except socket.error, e:
             logging.critical(e.__str__())
@@ -106,7 +105,7 @@ class TcpHandler(Thread):
                 msg = msg.strip("'")
                 if not msg.startswith(EventMessage.MSG_HEAD_TOKEN):
                     pass#Comet.push_message(msg)
-                    #HookboxHandlers.push_message(msg)
+                    push_message(msg)
             except socket.error, e:
                 sys.stderr.write('Error whilst listening for events: ' + e.__str__() + '\n')
                 sys.stderr.write('Exiting event listener thread\n')
@@ -137,3 +136,4 @@ class TcpHandler(Thread):
         else:
             logging.info('TCP string sent: ' + string)
             return True, None
+        

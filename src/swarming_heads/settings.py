@@ -2,7 +2,6 @@
 
 import logging
 import os
-import hookbox
 
 # Keep all references relative to this file
 SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
@@ -16,6 +15,8 @@ LOG_FILE = 'swarming_heads.log'
 
 HOOKBOX_HOST = '127.0.0.1'
 HOOKBOX_PORT = 8001
+
+EM_INTERFACE = None
 
 EM_CONFIG_FILE = os.path.join(SITE_ROOT, 'em_interface.cfg')
 
