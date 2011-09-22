@@ -8,7 +8,7 @@ import urllib2
 @csrf_exempt
 def connect(request):
     
-    print 'CONNECTING BRO'
+    print 'CONNECTING'
     jsonString = json.dumps([ True, { "name" : "daniel" } ])
     
     return HttpResponse(content=jsonString, status=200)
@@ -17,7 +17,7 @@ def connect(request):
 @csrf_exempt
 def create_channel(request):
     
-    print 'CREATING CHANNEL BRO'
+    print 'CREATING CHANNEL'
     jsonString = json.dumps([ True, { "history_size" : 0, 
                                     "reflective" : True, 
                                     "presenceful" : True } ])
@@ -27,7 +27,7 @@ def create_channel(request):
 @csrf_exempt
 def subscribe(request):
     
-    print 'SUBSCRIBING BRO'
+    print 'SUBSCRIBING'
     jsonString = json.dumps([ True, {  } ])
     
     return HttpResponse(content=jsonString, status=200)
@@ -60,7 +60,7 @@ def publish(request):
 @csrf_exempt
 def disconnect(request):
     
-    print 'DISCONNECTING BRO'
+    print 'DISCONNECTING'
     jsonString = json.dumps([ True, {} ])
     
     return HttpResponse(content=jsonString, status=200)
@@ -78,5 +78,5 @@ def push_message(message):
 
 @csrf_exempt
 def home(request):
-    print 'GETTING HOME BRO'
+    print 'GETTING HOME'
     return render(request, 'testing/HookboxTest.html')

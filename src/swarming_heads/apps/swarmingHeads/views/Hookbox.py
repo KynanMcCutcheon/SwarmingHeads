@@ -1,6 +1,7 @@
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from swarming_heads import EM_INTERFACE
+from swarming_heads.eminterface.CometMessaging import push_message
 from swarming_heads.eminterface.EventMessage import EventMessageBuilder, \
     EventMessage
 from swarming_heads.eminterface.Events import EventType, EventList
@@ -10,7 +11,7 @@ import logging
 @csrf_exempt
 def connect(request):
     
-    print 'CONNECTING BRO'
+    logging.debug("Connecting")
     
     jsonString = json.dumps([ True, { "name" : "daniel" } ])
     
@@ -20,7 +21,7 @@ def connect(request):
 @csrf_exempt
 def create_channel(request):
     
-    print 'CREATING CHANNEL BRO'
+    logging.debug("Creating channel")
     jsonString = json.dumps([ True, { "history_size" : 0, 
                                     "reflective" : True, 
                                     "presenceful" : True } ])
@@ -30,7 +31,7 @@ def create_channel(request):
 @csrf_exempt
 def subscribe(request):
     
-    print 'SUBSCRIBING BRO'
+    logging.debug("Creating subscription")
     jsonString = json.dumps([ True, {  } ])
     
     return HttpResponse(content=jsonString, status=200)
@@ -38,7 +39,7 @@ def subscribe(request):
 @csrf_exempt
 def disconnect(request):
     
-    print 'DISCONNECTING BRO'
+    logging.debug("Disconnecting client")
     jsonString = json.dumps([ True, {} ])
     
     return HttpResponse(content=jsonString, status=200)
@@ -46,9 +47,6 @@ def disconnect(request):
 
 @csrf_exempt
 def publish(request):
-    return send_message(request)
-    
-def send_message(request):
     '''
     USER -- > ROBOT communication
     
@@ -58,7 +56,8 @@ def send_message(request):
     if not EM_INTERFACE.is_connected:
         success, err_msg = EM_INTERFACE.connect(request.user.username)
         if not success:
-            logging.warning("COULDNT CONNECT TO EVENT MANAGER " + err_msg)#Comet.push_message('Error connecting to event manager: ' + err_msg)
+            logging.warning("Couldnt connect to event manager: " + err_msg)
+            push_message('Error connecting to event manager: ' + err_msg)
     
     if request.POST.has_key('payload'):
         message = request.POST['payload']
@@ -97,10 +96,11 @@ def send_message(request):
     
     if not success:
         # Send error message to client!
-        logging.warning("ERROR SENDING MESSAGE " + err_msg)#Comet.push_message('Error sending message: ' + err_msg)
-        jsonString = json.dumps([ False, {} ])
+        logging.warning("ERROR SENDING MESSAGE " + err_msg)
+        jsonString = json.dumps([ False, {"Error" : err_msg} ])
     else:
         jsonString = json.dumps([ True, {} ])
     
     
     return HttpResponse(content=jsonString, status=200)
+    
