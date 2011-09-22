@@ -16,8 +16,6 @@ LOG_FILE = 'swarming_heads.log'
 HOOKBOX_HOST = '127.0.0.1'
 HOOKBOX_PORT = 8001
 
-EM_INTERFACE = None
-
 EM_CONFIG_FILE = os.path.join(SITE_ROOT, 'em_interface.cfg')
 
 SECRET_KEY = '+i%4%7_9u(j*1)o*zroago98np-z1z81##$1^2*@eu01ckl183'

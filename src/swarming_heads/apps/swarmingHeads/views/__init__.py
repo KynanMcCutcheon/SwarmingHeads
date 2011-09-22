@@ -3,4 +3,5 @@
 # but allows for better code refactoring/structure
 
 from Login import *
+from Hookbox import *
 from Interface import *

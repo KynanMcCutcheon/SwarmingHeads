@@ -12,4 +12,11 @@ urlpatterns = patterns('apps.swarmingHeads.views',
     
     #Receiver for comet messages
     url(r'^message/send/$', 'pass_message'),
+    
+    #Hookbox callbacks
+    (r'^connect$', 'connect'),
+    (r'^create_channel$', 'create_channel'),
+    (r'^subscribe', 'subscribe'),
+    (r'^disconnect', 'disconnect'),
+    (r'^publish', 'publish'),
 )

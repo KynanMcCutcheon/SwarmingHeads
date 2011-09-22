@@ -13,7 +13,7 @@ urlpatterns = patterns('',
     url(r'^hookbox_test$', 'apps.testing.views.home', name="home"),
     
     # Urls for comet messaging
-    url(r'^hookbox/', include('apps.hb.urls')),
+    url(r'^hookbox/', include('apps.swarmingHeads.urls')),
     
     # Urls to handle admin work
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

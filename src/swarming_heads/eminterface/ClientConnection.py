@@ -5,7 +5,7 @@ Created on Aug 21, 2011
 '''
 
 from EventMessage import EventMessage
-from swarming_heads.apps.hb.views import push_message
+from swarming_heads.eminterface.CometMessaging import push_message
 from swarming_heads.eminterface.Events import EventType
 from threading import Thread
 import logging
