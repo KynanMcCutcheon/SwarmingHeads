@@ -5,67 +5,63 @@
 {% block headcontents %}
 	<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/uistyle.css" />
 	<script type="text/javascript" src="{{ STATIC_URL }}js/controlScript.js"></script>
+	<script src="{{ STATIC_URL }}js/library/hookbox.min.js" type="text/javascript"></script>
 	
 	<script type="text/javascript">
-			document.domain = "{{ orbited_host }}" 
-			Orbited.settings.hostname = '{{ orbited_host }}';
-			Orbited.settings.port = {{ orbited_port }};
-			TCPSocket = Orbited.TCPSocket;
-		</script>
+		  if (!window.console) {
+		    console = {
+		      log: function() {},
+		      error: function() {},
+		    };
+		  }
 		
-		<script type="text/javascript">	
-			var add_message = function(payload){
-				var message1 = payload.toString();
-				message_div = document.createElement("div");
-				message_div.innerHTML = message1;
-				document.getElementById("messages").appendChild(message_div);
-			};
-	
-			// execute once the document is ready
-			$(document).ready(function(){
-				stomp = new STOMPClient();
-				stomp.onopen = function(){
-					//console.log("opening stomp client");
-				};
-				stomp.onclose = function(c){
-					alert('Lost Connection, Code: ' + c);
-				};
-				stomp.onerror = function(error){
-					alert("Error: " + error);
-				};
-				stomp.onerrorframe = function(frame){
-					alert("Error: " + frame.body);
-				};
-				stomp.onconnectedframe = function(){
-					//console.log("Connected. Subscribing");
-					//alert("subscribing");
-					stomp.subscribe("/em/message");
-				};
-				stomp.onmessageframe = function(frame){
-					// Presumably we should only receive message frames with the
-					// destination "/topic/shouts" because that's the only destination
-					// to which we've subscribed. To handle multiple destinations we
-					// would have to check frame.headers.destination.
-					add_message(frame.body);
-				};
-			        
-				stomp.connect('{{ stomp_host }}', {{ stomp_port }} );
-			        
-				$('#send_shout').click(function(){
-					// send an XMLHttpRequest to /xhr
-					var message_text = document.getElementById('shout_text').value;
-	
-					$.ajax({
-						type:'GET',
-						url:'http://{{ server_host }}/message/send/',
-						data:{
-							'message':message_text,
-						},
-					});
-				});
-			});
+		  var connection;
+		
+		  function send_message() {
+		    connection.publish('/chat/', shout_text.value);
+		    shout_text.value = "";
+		    return false;
+		  };
+		
+		  //Our callback for when a message is pushed to the client
+		  function publish(message) {
+			message_div = document.createElement("div");
+			message_div.innerHTML = message.payload;
+			document.getElementById("messages").appendChild(message_div);
+		    
+		  };
+		
+		  $(document).ready(function() {
+			  	
+			    //Connect to our hookbox instance
+			  	connection = hookbox.connect('http://{{ hookbox_host }}:{{ hookbox_port }}');
+			    
+			    //Set up our connection callbacks
+			    connection.onOpen = function() {
+			    	console.log("Connected established");
+			    };
+			    
+			    connection.onError = function(err) {
+			      console.error("hookbox error: " + err.msg);
+			    };
+			
+			    connection.onSubscribed = function(channel, subscription) {
+			      console.log('Subscribed to channel:', channel);
+			      $.each(subscription.history, function(ii, msg) {
+			        if (msg[0] === 'PUBLISH') {
+			          publish(msg[1]);
+			        }
+			      });
+			      subscription.onPublish = publish;
+			    };
+			
+			    connection.onUnsubscribed = function(channel, subscription) {
+			      console.log('Unsubscribed from channel:', channel);
+			    };
+			
+			    connection.subscribe('/chat/');
+		  });
 		</script>
-	
 {% endblock %}
 
 {% block body %}
@@ -113,7 +109,7 @@
 				{% csrf_token %}
 				<textarea id="shout_text"></textarea><br />
 				<div id="send_shout_div">
-					<button id="send_shout">Send Message</button>
+					<button id="send_shout" onclick="send_message()">Send Message</button>
 				</div>
 			</div>
 		</div>

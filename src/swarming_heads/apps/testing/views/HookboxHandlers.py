@@ -57,20 +57,24 @@ def publish(request):
     
     return HttpResponse(content=jsonString, status=200)
 
-def push_message(request):
+@csrf_exempt
+def disconnect(request):
+    
+    print 'DISCONNECTING BRO'
+    jsonString = json.dumps([ True, {} ])
+    
+    return HttpResponse(content=jsonString, status=200)
+
+def push_message(message):
     values = { "channel_name" : "/chat/",
-               "payload" : []
+               "payload" : message
              }
     
     url = "http://127.0.0.1:8001/rest/publish"
     
-    for i in range(100):
-        values["payload"] = {"key1" : "val1",
-                         "key2" : "val2"}
-        data = urllib.urlencode(values)
-        req = urllib2.Request(url, data)
-        resp = urllib2.urlopen(req)
-        
+    data = urllib.urlencode(values)
+    req = urllib2.Request(url, data)
+    resp = urllib2.urlopen(req)
 
 @csrf_exempt
 def home(request):

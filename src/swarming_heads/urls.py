@@ -1,6 +1,5 @@
 from django.conf.urls.defaults import patterns, include, url
 from django.contrib import admin
-from django.views.generic.simple import redirect_to, direct_to_template
 
 admin.autodiscover()
 
@@ -14,10 +13,7 @@ urlpatterns = patterns('',
     url(r'^hookbox_test$', 'apps.testing.views.home', name="home"),
     
     # Urls for comet messaging
-    (r'^hookbox/connect$', 'apps.testing.views.connect'),
-    (r'^hookbox/create_channel$', 'apps.testing.views.create_channel'),
-    (r'^hookbox/subscribe', 'apps.testing.views.subscribe'),
-    (r'^hookbox/publish', 'apps.testing.views.publish'),
+    url(r'^hookbox/', include('apps.hb.urls')),
     
     # Urls to handle admin work
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

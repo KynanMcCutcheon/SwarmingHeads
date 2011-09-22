@@ -5,12 +5,14 @@ Created on Aug 21, 2011
 '''
 
 from EventMessage import EventMessage
-from swarming_heads.eminterface.CometComponents import Comet
 from swarming_heads.eminterface.Events import EventType
+from swarming_heads.settings import HOOKBOX_HOST, HOOKBOX_PORT
 from threading import Thread
 import logging
 import socket
 import sys
+import urllib
+import urllib2
 
 class ClientConnection(object):
     '''
@@ -103,7 +105,8 @@ class TcpHandler(Thread):
                 logging.info('Received a Message: ' + msg)
                 msg = msg.strip("'")
                 if not msg.startswith(EventMessage.MSG_HEAD_TOKEN):
-                    Comet.push_message(msg)
+                    pass#Comet.push_message(msg)
+                    #HookboxHandlers.push_message(msg)
             except socket.error, e:
                 sys.stderr.write('Error whilst listening for events: ' + e.__str__() + '\n')
                 sys.stderr.write('Exiting event listener thread\n')

@@ -11,5 +11,5 @@ urlpatterns = patterns('apps.swarmingHeads.views',
     url(r'^login', 'login_handler'),
     
     #Receiver for comet messages
-    url(r'^message/send/$', 'send_message'),
+    url(r'^message/send/$', 'pass_message'),
 )
