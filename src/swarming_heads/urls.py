@@ -8,10 +8,7 @@ admin.autodiscover()
 urlpatterns = patterns('',    
     # Urls for our static files..
     url(r'^static/(?P<path>.*)', 'django.views.static.serve'),
-    
-    # Temporary test for Hookbox
-    url(r'^hookbox_test$', 'apps.testing.views.home', name="home"),
-    
+        
     # Urls for comet messaging
     url(r'^hookbox/', include('apps.swarmingHeads.urls')),
     

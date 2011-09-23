@@ -13,7 +13,7 @@ def connect(request):
     
     logging.debug("Connecting")
     
-    jsonString = json.dumps([ True, { "name" : "daniel" } ])
+    jsonString = json.dumps([ True, {"name" : "daniel" } ])
     
     return HttpResponse(content=jsonString, status=200)
     
@@ -57,7 +57,7 @@ def publish(request):
         success, err_msg = EM_INTERFACE.connect(request.user.username)
         if not success:
             logging.warning("Couldnt connect to event manager: " + err_msg)
-            push_message('Error connecting to event manager: ' + err_msg)
+            push_message('Error connecting to event manager: ' + err_msg, request.user.username)
     
     if request.POST.has_key('payload'):
         message = request.POST['payload']

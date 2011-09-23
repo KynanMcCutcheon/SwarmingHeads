@@ -11,7 +11,8 @@ def interface(request):
         #Valid user, lets show them the interface
         mappings = {'server_host'  : request.get_host(),
                     'hookbox_port' : HOOKBOX_PORT,
-                    'hookbox_host' : HOOKBOX_HOST }
+                    'hookbox_host' : HOOKBOX_HOST, 
+                    'user_name'  : request.user.username}
         return render_to_response('swarmingHeads/ui_index.html',mappings,context_instance=RequestContext(request))
     else:
         #User is not logged in, redirect them to login page

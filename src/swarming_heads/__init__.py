@@ -1,5 +1,5 @@
 from swarming_heads.eminterface.ClientConnection import ClientConnection
-from swarming_heads.settings import LOG_FILE, LOG_LEVEL, EM_CONFIG_FILE, EM_HOST, \
+from swarming_heads.settings import LOG_FILE, LOG_LEVEL, EM_HOST, \
     EM_PORT
 import logging
 import os

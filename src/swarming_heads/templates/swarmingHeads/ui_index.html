@@ -18,7 +18,7 @@
 		  var connection;
 		
 		  function send_message() {
-		    connection.publish('/chat/', shout_text.value);
+		    connection.publish('{{ user_name }}', shout_text.value);
 		    shout_text.value = "";
 		    return false;
 		  };
@@ -60,7 +60,7 @@
 			      console.log('Unsubscribed from channel:', channel);
 			    };
 			
-			    connection.subscribe('/chat/');
+			    connection.subscribe('{{ user_name }}');
 		  });
 		</script>
 {% endblock %}

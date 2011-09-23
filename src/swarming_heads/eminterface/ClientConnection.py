@@ -27,7 +27,7 @@ class ClientConnection(object):
         return self.handler.send_string(str)
                 
     def connect(self, name, rc=None, re=None, pe=None):
-        print 'CONNECTING'
+        logging.info("Connecting to EM")
         if self.is_connected:
             logging.info('Attempting to connect a client which is already connected')
             return False, 'This client is already connected'
@@ -51,7 +51,7 @@ class ClientConnection(object):
             self.handler.send_string(str)
             
             #Now that we are connected, start a thread to listen for events
-            print 'STARTING THE HANDLER THREAD'
+            logging.info("Starting EM Handler thread")
             self.handler.start()
         except socket.error, e:
             logging.critical(e.__str__())
@@ -103,7 +103,7 @@ class TcpHandler(Thread):
                 logging.info('Received a Message: ' + msg)
                 msg = msg.strip("'")
                 if not msg.startswith(EventMessage.MSG_HEAD_TOKEN):
-                    push_message(msg)
+                    push_message(msg, 'admin')
             except socket.error, e:
                 sys.stderr.write('Error whilst listening for events: ' + e.__str__() + '\n')
                 sys.stderr.write('Exiting event listener thread\n')

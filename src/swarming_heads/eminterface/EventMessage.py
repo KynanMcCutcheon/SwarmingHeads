@@ -94,7 +94,7 @@ class EventMessage(object):
 
     @staticmethod
     def toJSON(message):
-        print 'GETTING JSON'
+        logging.debug("Getting messaging json")
         msg = EventMessage.fromString(message)
         return json.dumps([ {'EV' : msg.event_type,
                             'NM' : msg.client_name,

@@ -10,14 +10,14 @@ import logging
 import urllib
 import urllib2
 
-def push_message(message):
+def push_message(message, username):
     '''
     ROBOT -- > USER communication
     
     Static method which will push data from the server to the browser
     '''
     values = { "secret" : "secret",
-               "channel_name" : "/chat/",
+               "channel_name" : username,
                "payload" : []
              }
     
@@ -31,9 +31,6 @@ def push_message(message):
         values["payload"] = json.dumps(message)
         
     url = "http://" + HOOKBOX_HOST + ":" + str(HOOKBOX_PORT) + "/rest/publish"
-    print url    
     data = urllib.urlencode(values)
-    print data
     req = urllib2.Request(url, data)
     resp = urllib2.urlopen(req)
-    print resp.read()
