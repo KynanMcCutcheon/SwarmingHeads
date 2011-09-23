@@ -19,9 +19,8 @@ class ClientConnection(object):
     messages to and from event manager
     '''
     
-    def __init__(self, config):
-        self.config = config
-        self.handler = TcpHandler(self.config.host, self.config.port)
+    def __init__(self, host, port):
+        self.handler = TcpHandler(host, port)
         self.is_connected = False
         
     def send_raw_string(self, str):
@@ -62,12 +61,12 @@ class ClientConnection(object):
             self.is_connected = True
             return True, None
 
-    def disconnect(self):
+    def disconnect(self, name):
         if not self.is_connected:
             logging.info("Attempting to disconnect a client which wasn't connected")
             return False, 'This client was not connected'
         
-        success, message = self.handler.send_string('MSG EV:' + EventType.DELETE + ' NM:' + self.config.client_name)
+        success, message = self.handler.send_string('MSG EV:' + EventType.DELETE + ' NM:' + name)
         
         if success:
             logging.info('Successfully disconnected from event manager')

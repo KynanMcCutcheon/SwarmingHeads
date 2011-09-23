@@ -1,6 +1,6 @@
 from swarming_heads.eminterface.ClientConnection import ClientConnection
-from swarming_heads.eminterface.Configuration import Configuration
-from swarming_heads.settings import LOG_FILE, LOG_LEVEL, EM_CONFIG_FILE
+from swarming_heads.settings import LOG_FILE, LOG_LEVEL, EM_CONFIG_FILE, EM_HOST, \
+    EM_PORT
 import logging
 import os
 import signal
@@ -33,9 +33,7 @@ setup_sighandlers() # Set up various signal handlers to safely exit the server
 
 EM_INTERFACE = None
 try:
-    config = Configuration(EM_CONFIG_FILE);
-    config.load()  
-    EM_INTERFACE = ClientConnection(config)
+    EM_INTERFACE = ClientConnection(EM_HOST, EM_PORT)
 except:
     logging.critical('Error creating event manager interface: ' + str(sys.exc_info()[1]) + '. Exiting..')
     sys.exit(1)
