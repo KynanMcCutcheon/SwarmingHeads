@@ -5,6 +5,7 @@ Created on Aug 21, 2011
 
 @summary: 
 '''
+import json
 import logging
 
 class EventMessage(object):
@@ -90,6 +91,19 @@ class EventMessage(object):
            
         
         return cls(ev, nm, en, ec, tc, rc, re, pe)      
+
+    @staticmethod
+    def toJSON(message):
+        print 'GETTING JSON'
+        msg = EventMessage.fromString(message)
+        return json.dumps([ {'EV' : msg.event_type,
+                            'NM' : msg.client_name,
+                            'EN' : msg.event_name,
+                            'EC' : msg.event_content,
+                            'TC' : msg.event_destination,
+                            'RC' : msg.need_client,
+                            'RE' : msg.need_event,
+                            'PE' : msg.provide_event }])
 
     def toString(self):
         retval = self.MSG_TOKEN

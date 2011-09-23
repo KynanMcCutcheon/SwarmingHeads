@@ -25,6 +25,7 @@
 		
 		  //Our callback for when a message is pushed to the client
 		  function publish(message) {
+			console.log(message);
 			message_div = document.createElement("div");
 			message_div.innerHTML = message.payload;
 			document.getElementById("messages").appendChild(message_div);

@@ -104,7 +104,6 @@ class TcpHandler(Thread):
                 logging.info('Received a Message: ' + msg)
                 msg = msg.strip("'")
                 if not msg.startswith(EventMessage.MSG_HEAD_TOKEN):
-                    pass#Comet.push_message(msg)
                     push_message(msg)
             except socket.error, e:
                 sys.stderr.write('Error whilst listening for events: ' + e.__str__() + '\n')
