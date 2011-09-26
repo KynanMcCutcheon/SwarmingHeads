@@ -10,12 +10,30 @@ import json
 import logging
 import sys
 
+def getEmConnection(username):
+    try:
+        em_connection = ClientConnection(EM_HOST, EM_PORT)     
+        success, err_msg = em_connection.connect(username)
+        if not success:
+            logging.warning("Couldnt connect to event manager: " + err_msg)
+            return None
+        
+        return em_connection
+    except :
+        logging.warning("Couldnt initialize to event manager: " + str(sys.exc_info()[1]))
+        return None
+
 @csrf_exempt
 def connect(request):
-    
     logging.debug("Connecting")
-    
-    jsonString = json.dumps([ True, {"name" : "daniel" } ])
+    em_connection = getEmConnection(request.user.username)
+    if em_connection is None:
+        return HttpResponse(content=json.dumps([ False, {"name" : request.user.username} ]), status=200)
+    else:
+        logging.debug('Adding new em_connection to thread pool for user: ' + request.user.username)
+        ThreadPool.add(request.user.username, em_connection)
+
+    jsonString = json.dumps([ True, {"name" : request.user.username } ])
     
     return HttpResponse(content=jsonString, status=200)
     
@@ -42,6 +60,9 @@ def subscribe(request):
 def disconnect(request):
     
     logging.debug("Disconnecting client")
+    
+    ThreadPool.remove(request.user.username)
+    
     jsonString = json.dumps([ True, {} ])
     
     return HttpResponse(content=jsonString, status=200)
@@ -53,27 +74,22 @@ def publish(request):
     USER -- > ROBOT communication
     
     Handler to receive message from Browser and pass along to client robot
-    '''
-    print 'IM HERE MAN'
+    '''    
     
-    em_connection = request.session.get('em_connection', None)
+    em_connection = ThreadPool.get(request.user.username)
     
     if em_connection is None:
-        try:
-            em_connection = ClientConnection(EM_HOST, EM_PORT)
-        except :
-            print 'GOING TO SEND ERROR MESSAGE'
-            logging.warning("Couldnt initialize to event manager: " + str(sys.exc_info()[1]))
-            push_error_message('Error initializing to event manager: ' + str(sys.exc_info()[1]), request.user.username)
+        logging.debug('No em_connection in pool by user: ' + request.user.username)
+        em_connection = getEmConnection(request.user.username)
+        if em_connection is None:
             return HttpResponse(content=json.dumps([ True, {} ]), status=200)
-    
-    if not em_connection.is_connected:           
-        success, err_msg = em_connection.connect(request.user.username)
-        if not success:
-            print 'GOING TO SEND ERROR MESSAGE'
-            logging.warning("Couldnt connect to event manager: " + err_msg)
-            push_error_message('Error connecting to event manager: ' + err_msg, request.user.username)
-            return HttpResponse(content=json.dumps([ True, {} ]), status=200)
+        else:
+            logging.debug('Adding new connection to pool in publish for user: ' + request.user.username)
+            ThreadPool.add(request.user.username, em_connection)
+    else:
+        logging.debug('Got em_connection from pool for user ' + request.user.username)
+    #else:
+        #request.session['em_connecton'] = em_connection
     
     if request.POST.has_key('payload'):
         message = request.POST['payload']
@@ -119,4 +135,26 @@ def publish(request):
     
     
     return HttpResponse(content=jsonString, status=200)
+
+class ThreadPool(object):
+    '''
+    Simple wrapper class to hold references to all 
+    connections between web app and event manager
+    '''
+    pool = {}
+    
+    @staticmethod
+    def add(name, thread):
+        ThreadPool.pool[name] = thread
+    
+    @staticmethod
+    def get(name):
+        return ThreadPool.pool.get(name, None)
+        
+    @staticmethod
+    def remove(name):
+        ThreadPool.pool.pop(name, None)
+        
+    
+    
     

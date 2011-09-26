@@ -1,0 +1,20 @@
+#loginmain {
+	float: left;
+	width: 60%;
+	height: 300px; /*temporary*/
+	background-color: #FFE5E5;
+}
+
+#loginform {
+	float: left;
+	width: 40%;
+	background-color: #E5FFE5;
+	font-family: 'arial';
+	font-size: 90%;
+	text-align: center;
+}
+
+.logintable {
+	margin: 0px auto;
+	text-align: left;
+}
