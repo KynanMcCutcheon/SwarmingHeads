@@ -30,10 +30,3 @@ def setup_sighandlers():
 
 setup_logging() # Setup logging for the application
 setup_sighandlers() # Set up various signal handlers to safely exit the server
-
-EM_INTERFACE = None
-try:
-    EM_INTERFACE = ClientConnection(EM_HOST, EM_PORT)
-except:
-    logging.critical('Error creating event manager interface: ' + str(sys.exc_info()[1]) + '. Exiting..')
-    sys.exit(1)

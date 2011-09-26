@@ -1,12 +1,14 @@
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
-from swarming_heads import EM_INTERFACE
+from swarming_heads.eminterface.ClientConnection import ClientConnection
 from swarming_heads.eminterface.CometMessaging import push_error_message
 from swarming_heads.eminterface.EventMessage import EventMessageBuilder, \
     EventMessage
 from swarming_heads.eminterface.Events import EventType, EventList
+from swarming_heads.settings import EM_HOST, EM_PORT
 import json
 import logging
+import sys
 
 @csrf_exempt
 def connect(request):
@@ -53,8 +55,20 @@ def publish(request):
     Handler to receive message from Browser and pass along to client robot
     '''
     print 'IM HERE MAN'
-    if not EM_INTERFACE.is_connected:
-        success, err_msg = EM_INTERFACE.connect(request.user.username)
+    
+    em_connection = request.session.get('em_connection', None)
+    
+    if em_connection is None:
+        try:
+            em_connection = ClientConnection(EM_HOST, EM_PORT)
+        except :
+            print 'GOING TO SEND ERROR MESSAGE'
+            logging.warning("Couldnt initialize to event manager: " + str(sys.exc_info()[1]))
+            push_error_message('Error initializing to event manager: ' + str(sys.exc_info()[1]), request.user.username)
+            return HttpResponse(content=json.dumps([ True, {} ]), status=200)
+    
+    if not em_connection.is_connected:           
+        success, err_msg = em_connection.connect(request.user.username)
         if not success:
             print 'GOING TO SEND ERROR MESSAGE'
             logging.warning("Couldnt connect to event manager: " + err_msg)
@@ -94,7 +108,7 @@ def publish(request):
     
     builder.event_content = EventMessage.MSG_ARG_DELIM + message + EventMessage.MSG_ARG_DELIM
 
-    success, err_msg = EM_INTERFACE.send_raw_string(builder.build().toString())
+    success, err_msg = em_connection.send_raw_string(builder.build().toString())
     
     if not success:
         # Send error message to client!
