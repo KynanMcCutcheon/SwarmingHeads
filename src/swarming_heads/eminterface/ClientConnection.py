@@ -7,6 +7,7 @@ Created on Aug 21, 2011
 from EventMessage import EventMessage
 from swarming_heads.eminterface.CometMessaging import push_message
 from swarming_heads.eminterface.Events import EventType
+from swarming_heads.settings import EM_TIMEOUT
 from threading import Thread
 import logging
 import socket
@@ -103,7 +104,8 @@ class TcpHandler(Thread):
                 logging.info('Received a Message: ' + msg)
                 msg = msg.strip("'")
                 if not msg.startswith(EventMessage.MSG_HEAD_TOKEN):
-                    push_message(msg, 'admin')
+                    evMsg = EventMessage.fromString(msg)
+                    push_message(msg, evMsg.event_destination)
             except socket.error, e:
                 sys.stderr.write('Error whilst listening for events: ' + e.__str__() + '\n')
                 sys.stderr.write('Exiting event listener thread\n')
@@ -113,8 +115,10 @@ class TcpHandler(Thread):
                 break
     
     def connect(self):
+        self.socket.settimeout(EM_TIMEOUT)
         self.socket.connect((self.host, self.port))
         self.is_connected = True
+        self.socket.settimeout(None)
     
     def get_header(self, message):
         length = len(message)

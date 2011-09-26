@@ -16,6 +16,8 @@ LOG_FILE = 'swarming_heads.log'
 EM_HOST = '127.0.0.1'
 EM_PORT = 30001
 
+EM_TIMEOUT = 10; #Number of seconds to wait for connection to EM before timeout
+
 HOOKBOX_HOST = '127.0.0.1'
 HOOKBOX_PORT = 8001
 
