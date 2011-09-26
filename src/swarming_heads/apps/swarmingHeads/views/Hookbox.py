@@ -1,7 +1,6 @@
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from swarming_heads.eminterface.ClientConnection import ClientConnection
-from swarming_heads.eminterface.CometMessaging import push_error_message
 from swarming_heads.eminterface.EventMessage import EventMessageBuilder, \
     EventMessage
 from swarming_heads.eminterface.Events import EventType, EventList
