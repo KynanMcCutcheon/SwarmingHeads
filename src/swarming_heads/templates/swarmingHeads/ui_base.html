@@ -6,27 +6,23 @@
 		<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/mainstyle.css" />
 		<!-- <script type="text/javascript" src="{{ STATIC_URL }}js/library/mootools-core-1.3.1-full-compat.js"></script> -->
 		<script type="text/javascript" src="{{ STATIC_URL }}js/library/jquery-1.6.2.min.js"></script>
-		
+		<script type="text/javascript" src="{{ STATIC_URL }}js/library/jquery-ui-1.8.16.custom.min.js"></script>
 		{% block headcontents %}{% endblock %} <!-- Let derived pages add head content when necessary -->
 	</head>
 	
 	<body>
-		<div id="container" class="border_glow">
-			<div id="clearheader"></div>
-			
-			<div id="content">
+		<div id="content">
+			<div id="header"><!-- header bar for all pages -->
+				<div class="sectcontent"><h2>Thinking Heads Header</h2></div>
+			</div>
+		
+			<div class="sectcontent">	
 				{% block body %}{% endblock %}
 			</div>
-			
-			<div id="clearfooter"></div>
+			<div class="push"></div>
 		</div>
-
-		<div id="footer">
+		<div id="footer"><!-- footer bar for all pages -->
 			<div class="sectcontent"><h2>Thinking Heads Footer</h2></div>
-		</div>
-
-		<div id="header">
-			<div class="sectcontent"><h2>Thinking Heads Header</h2></div>
 		</div>
 	</body>
 </html>

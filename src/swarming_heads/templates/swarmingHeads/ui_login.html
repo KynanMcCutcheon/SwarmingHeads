@@ -1,4 +1,4 @@
-{% extends "swarmingHeads/ui_base.html" %}
+{% extends "ui_base.html" %}
 
 {% block title %}Login{% endblock %}
 
@@ -12,9 +12,9 @@
 			This is where main information about Swarming Heads will be.  On the right side there will be a login option as well for users to login to the main interface.
 		</div>
 	</div>
-	
+		
 	<div id="loginform">
-		<form method="post" action="login">{% csrf_token %}
+		<form method="post" action="./">{% csrf_token %}
 			<div class="contentpadder">
 				<h2>User Login:</h2>
 				<table class="logintable">

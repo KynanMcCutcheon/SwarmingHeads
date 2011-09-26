@@ -1,9 +1,14 @@
 /*Main two panels*/
 
+#viewpanel, #controlpanel {
+	height: 600px;
+	position: relative;
+	left: 50px;
+}
+
 #viewpanel {
 	float:left;
 	width: 650px;
-	height: 500px;/*just for now*/
 	margin: 0px auto;
 	overflow: hidden;
 	background-color: #FFE5E5;
@@ -13,7 +18,6 @@
 #controlpanel {
 	float: left;
 	width: 250px;
-	height: 500px;/*just for now*/
 	margin: 0px auto;
 	background-color: #E5FFE5;
 	overflow: hidden;
@@ -31,12 +35,12 @@
 	border-right: 2px solid #555555;
 	border-bottom: none;
 	border-left: 2px solid #555555;
-	background-color: #AAAAAA;
+	overflow: hidden;
 }
 
 #chatbox {
 	width: auto;
-	height: 162px;
+	height: 262px;
 	margin: 0px 3px 3px 3px;
 	border: 2px solid #555555;
 	padding: 2px;
@@ -48,7 +52,7 @@
 
 #servlog {
 	width: auto;
-	height: 314px;
+	height: 412px;
 	margin: 3px 3px 0px 3px;
 	border-top: 2px solid #555555;
 	border-right: 2px solid #555555;
@@ -69,6 +73,26 @@
 	text-align: center;
 }
 
+/*Child panels of viewport*/
+
+#viewscreen, #viewmap {
+	width: 640px;
+	height: 320px;
+}
+
+#viewscreen {
+	background-color: #AAAAAA;
+	z-index: 2;
+}
+
+#viewmap {
+	position: relative;
+	bottom: 100%;
+	background-color: #5555FF;
+	z-index: 3;
+	visibility: hidden;
+}
+
 /*Child panels of chatbox*/
 
 #messages, #shoutbox {
@@ -78,7 +102,7 @@
 
 #messages {
 	width: auto;
-	height: 50%;
+	height: 180px;
 	background-color: #FFFFFF;
 	overflow: auto;
 	overflow-x: hidden;
@@ -160,7 +184,7 @@
 	position: relative;
 }
 
-#move_up, #move_right, #move_down, #move_left {
+#move_up, #move_right, #move_down, #move_left, #toggle_map {
 	width: 100%;
 	height: 100%;
 	position: relative;
@@ -184,29 +208,39 @@
 	right: 100%;
 }
 
-#btn_up, #btn_right, #btn_down, #btn_left {
+#toggle_map {
+	bottom: 400%;
+	left: 100%;
+}
+
+#btn_up, #btn_right, #btn_down, #btn_left, #btn_map {
 	position: relative;
 	width: 50px;
 	height: 50px;
-	background-color: #F5F5F5;
+	background-color: #666666;
 	left: 2px;
 	top: 2px;
 }
 
 #btn_up {
-	/*background-image:url('img/btn_up.png');*/
+	/*background-image:url('static/img/btn_up.png');*/
 }
 
 #btn_right {
-	/*background-image:url('img/btn_right.png');*/
+	/*background-image:url('static/img/btn_right.png');*/
 }
 
 #btn_down {
-	/*background-image:url('img/btn_down.png');*/
+	/*background-image:url('static/img/btn_down.png');*/
 }
 
 #btn_left {
-	/*background-image:url('img/btn_left.png');*/
+	/*background-image:url('static/img/btn_left.png');*/
+}
+
+#btn_map{
+	/*background-image:url('img/btn_map.png');*/
+	background-color: #AAAAFF;
 }
 
 /*button effects style*/

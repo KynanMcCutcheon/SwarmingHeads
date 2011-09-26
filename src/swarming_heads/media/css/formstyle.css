@@ -1,13 +1,14 @@
 #loginmain {
 	float: left;
 	width: 60%;
-	height: 300px; /*temporary*/
+	height: 100%; /*temporary*/
 	background-color: #FFE5E5;
 }
 
 #loginform {
 	float: left;
 	width: 40%;
+	height: 100%;
 	background-color: #E5FFE5;
 	font-family: 'arial';
 	font-size: 90%;

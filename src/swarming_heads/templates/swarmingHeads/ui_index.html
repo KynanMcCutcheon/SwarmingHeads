@@ -18,8 +18,9 @@
 		  var connection;
 		
 		  function send_message() {
-		    connection.publish('{{ user_name }}', shout_text.value);
-		    shout_text.value = "";
+			tb = document.getElementById('shout_text')			  
+		    connection.publish('{{ user_name }}', tb.value);
+		    tb.value = "";
 		    return false;
 		  };
 		
@@ -68,7 +69,10 @@
 {% block body %}
 	<div id="viewpanel">
 		<div id="viewport">
-			This is the viewport for the camera and overlapping 2d map (via button toggling)
+			<div id="viewscreen">Camera View - camera code should be chucked in here.</div>
+			<div id="viewmap">
+				<canvas id="robmap" width="640" height="320"></canvas>
+			</div>
 		</div>
 		
 		<div id="chatbox">
@@ -125,12 +129,19 @@
 			Control Box
 			
 			<div id="controlui">
-				<div class="movebutton"><div id="move_up"><div id="btn_up"></div></div></div>
-				<div class="movebutton"><div id="move_right"><div id="btn_right"></div></div></div>
-				<div class="movebutton"><div id="move_down"><div id="btn_down"></div></div></div>
-				<div class="movebutton"><div id="move_left"><div id="btn_left"></div></div></div>
-				<div id="camtoggle">
-				</div>
+				<div class="movebutton"><div id="move_up"><div id="btn_up">
+					<img src="{{ STATIC_URL }}img/btn_up.png" alt="button up" />
+				</div></div></div>
+				<div class="movebutton"><div id="move_right"><div id="btn_right">
+					<img src="{{ STATIC_URL }}img/btn_right.png" alt="button up" />
+				</div></div></div>
+				<div class="movebutton"><div id="move_down"><div id="btn_down">
+					<img src="{{ STATIC_URL }}img/btn_down.png" alt="button up" />
+				</div></div></div>
+				<div class="movebutton"><div id="move_left"><div id="btn_left">
+					<img src="{{ STATIC_URL }}img/btn_left.png" alt="button up" />
+				</div></div></div>
+				<div class="movebutton"><div id="toggle_map"><div id="btn_map"></div></div></div>
 			</div>
 		</div>
 	</div>
