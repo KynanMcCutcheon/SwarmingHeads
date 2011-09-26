@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 from swarming_heads import EM_INTERFACE
-from swarming_heads.eminterface.CometMessaging import push_message
+from swarming_heads.eminterface.CometMessaging import push_error_message
 from swarming_heads.eminterface.EventMessage import EventMessageBuilder, \
     EventMessage
 from swarming_heads.eminterface.Events import EventType, EventList
@@ -52,12 +52,14 @@ def publish(request):
     
     Handler to receive message from Browser and pass along to client robot
     '''
-     
+    print 'IM HERE MAN'
     if not EM_INTERFACE.is_connected:
         success, err_msg = EM_INTERFACE.connect(request.user.username)
         if not success:
+            print 'GOING TO SEND ERROR MESSAGE'
             logging.warning("Couldnt connect to event manager: " + err_msg)
-            push_message('Error connecting to event manager: ' + err_msg, request.user.username)
+            push_error_message('Error connecting to event manager: ' + err_msg, request.user.username)
+            return HttpResponse(content=json.dumps([ True, {} ]), status=200)
     
     if request.POST.has_key('payload'):
         message = request.POST['payload']
