@@ -15,6 +15,12 @@
 	text-align: center;
 }
 
+#login_error_message
+{
+	color: Red;	
+	font-weight: bold;
+}
+
 .logintable {
 	margin: 0px auto;
 	text-align: left;

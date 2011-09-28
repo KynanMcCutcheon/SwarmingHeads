@@ -1,4 +1,4 @@
-{% extends "ui_base.html" %}
+{% extends "swarmingHeads/ui_base.html" %}
 
 {% block title %}Login{% endblock %}
 
@@ -14,7 +14,7 @@
 	</div>
 		
 	<div id="loginform">
-		<form method="post" action="./">{% csrf_token %}
+		<form method="post" action="login">{% csrf_token %}
 			<div class="contentpadder">
 				<h2>User Login:</h2>
 				<table class="logintable">
@@ -22,7 +22,9 @@
 				</table>
 			</div>
 			
-			<p><input type="submit" name="submit" value="Login" /></p>
+			<div id="login_error_message">{{ login_error }}</div>
+			
+			<p><input type="submit" name="login" value="Login" /></p>
 		</form>
 	</div>
 {% endblock %}
