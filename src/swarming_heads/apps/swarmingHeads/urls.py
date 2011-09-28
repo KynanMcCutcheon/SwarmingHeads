@@ -10,9 +10,9 @@ urlpatterns = patterns('apps.swarmingHeads.views',
     #Handler for login attempts
     url(r'^login', 'login_handler'),
     
-    #Receiver for comet messages
-    url(r'^message/send/$', 'pass_message'),
-    
+    #Handler for logout attempt
+    url(r'^interface/logout', 'logout_handler'),
+        
     #Hookbox callbacks
     (r'^connect$', 'connect'),
     (r'^create_channel$', 'create_channel'),

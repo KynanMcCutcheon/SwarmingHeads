@@ -18,21 +18,18 @@ def login_page(request):
             #If we have an error to display, lets get it
             mappings['login_error'] =  request.session['login_error']
 
-        #PAT!!!
-        #    On the login page, you can put a template tag {{ login_error }}
-        #    which can indicate there was an error on the previous login attempt
-
         return render_to_response('swarmingHeads/ui_login.html', mappings, context_instance=RequestContext(request))
     
-def login_handler(request):       
+def login_handler(request):   
     if request.method == "POST":    
         loginform = LoginForm(request.POST)
         if loginform.login(request):            
             return HttpResponseRedirect('/interface/')
-        
-    #User is not logged in, redirect them to login page
-    #NOTE: Somehow need to indicate we need to show an error message on the page
-    #      E.g. ?error="CouldntLogIn"
-    request.session['login_error'] = 'Error logging in'
+        else:
+            request.session['login_error'] = 'Incorrect username/password'
+    else:
+        request.session['login_error'] = 'Error logging in'
+
+    #User is not logged in, redirect them to login page & show error
     return HttpResponseRedirect('/')
  

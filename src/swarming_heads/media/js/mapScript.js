@@ -11,8 +11,4 @@ var drawPos = function() {
 
 $(document).ready(function() {
 	
-	
-	mapelem() {
-		
-	}
 });

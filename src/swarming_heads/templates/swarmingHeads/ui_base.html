@@ -11,18 +11,25 @@
 	</head>
 	
 	<body>
-		<div id="content">
-			<div id="header"><!-- header bar for all pages -->
-				<div class="sectcontent"><h2>Thinking Heads Header</h2></div>
-			</div>
-		
-			<div class="sectcontent">	
+		<div id="container" class="border_glow">
+			<div id="clearheader"></div>
+			
+			<div id="content">
 				{% block body %}{% endblock %}
 			</div>
-			<div class="push"></div>
+			
+			<div id="clearfooter"></div>
 		</div>
-		<div id="footer"><!-- footer bar for all pages -->
-			<div class="sectcontent"><h2>Thinking Heads Footer</h2></div>
+
+		<div id="footer">
+			<div class="sectcontent">
+				{% block footerextras %}{% endblock %}
+			</div>
+			
+		</div>
+
+		<div id="header">
+			<div class="sectcontent"><h2>Thinking Heads Header</h2></div>
 		</div>
 	</body>
 </html>

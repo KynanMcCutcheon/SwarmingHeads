@@ -67,82 +67,106 @@
 {% endblock %}
 
 {% block body %}
-	<div id="viewpanel">
-		<div id="viewport">
-			<div id="viewscreen">Camera View - camera code should be chucked in here.</div>
-			<div id="viewmap">
-				<canvas id="robmap" width="640" height="320"></canvas>
-			</div>
-		</div>
-		
-		<div id="chatbox">
-			<div id="messages">
-				<div class="msg_user">
-					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
-					<div class="msg_content"><div class="bumpright">Here is where the message itself will be.</div></div>
-					<div class="msg_date">11:30 A.M.</div>
+	<div class="panel_offset">
+		<div class="panel_rebalance">
+			<div id="viewpanel">
+				<div id="viewport">
+					<div id="viewscreen">Camera View - camera code should be chucked in here.</div>
+					<div id="viewmap">
+						<canvas id="robmap" width="640" height="320"></canvas>
+					</div>
 				</div>
 				
-				<div class="msg_user">
-					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
-					<div class="msg_content"><div class="bumpright">This is another one</div></div>
-					<div class="msg_date">11:31 A.M.</div>
-				</div>
-				
-				<div class="msg_user">
-					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
-					<div class="msg_content"><div class="bumpright">To demonstrate the spacing and scrolling</div></div>
-					<div class="msg_date">11:32 A.M.</div>
-				</div>
-				
-				<div class="msg_user">
-					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
-					<div class="msg_content"><div class="bumpright">Lorem this Ipsum.</div></div>
-					<div class="msg_date">11:33 A.M.</div>
-				</div>
-				
-				<div class="msg_user">
-					<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
-					<div class="msg_content"><div class="bumpright">
-						This is an example of a sentence that takes more than one line to cover.  All cases need to be covered in this area.
-					</div></div>
-					<div class="msg_date">11:33 A.M.</div>
+				<div id="chatbox">
+					<div id="messages">
+						<div class="msg_user">
+							<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+							<div class="msg_content"><div class="bumpright">Here is where the message itself will be.</div></div>
+							<div class="msg_date">11:30 A.M.</div>
+						</div>
+						
+						<div class="msg_user">
+							<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+							<div class="msg_content"><div class="bumpright">This is another one</div></div>
+							<div class="msg_date">11:31 A.M.</div>
+						</div>
+						
+						<div class="msg_user">
+							<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+							<div class="msg_content"><div class="bumpright">To demonstrate the spacing and scrolling</div></div>
+							<div class="msg_date">11:32 A.M.</div>
+						</div>
+						
+						<div class="msg_user">
+							<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+							<div class="msg_content"><div class="bumpright">Lorem this Ipsum.</div></div>
+							<div class="msg_date">11:33 A.M.</div>
+						</div>
+						
+						<div class="msg_user">
+							<div class="msg_name"><div class="bumpleft">Shifty Magician:</div></div>
+							<div class="msg_content"><div class="bumpright">
+								This is an example of a sentence that takes more than one line to cover.  All cases need to be covered in this area.
+							</div></div>
+							<div class="msg_date">11:33 A.M.</div>
+						</div>
+					</div>
+					
+					<div id="shoutbox">
+						{% csrf_token %}
+						<textarea id="shout_text"></textarea><br />
+						<div id="send_shout_div">
+							<button id="send_shout" onclick="send_message()">Send Message</button>
+						</div>
+					</div>
 				</div>
 			</div>
 			
-			<div id="shoutbox">
-				{% csrf_token %}
-				<textarea id="shout_text"></textarea><br />
-				<div id="send_shout_div">
-					<button id="send_shout" onclick="send_message()">Send Message</button>
+			<div id="controlpanel">
+				<div id="servlog">
+					Here is where server messages not related to the chat will be.
+				</div>
+				
+				<div id="controller">
+					Control Box
+					
+					<div id="controlui">
+						<div class="movebutton">
+							<div id="move_up">
+								<div id="btn_up" style='background-image: url("{{ STATIC_URL }}img/btn_up.png")'></div>
+							</div>
+						</div>
+						
+						<div class="movebutton">
+							<div id="move_right">
+								<div id="btn_right" style='background-image: url("{{ STATIC_URL }}img/btn_right.png")'></div>
+							</div>
+						</div>
+						
+						<div class="movebutton">
+							<div id="move_down">
+								<div id="btn_down" style='background-image: url("{{ STATIC_URL }}img/btn_down.png")'></div>
+							</div>
+						</div>
+						
+						<div class="movebutton">
+							<div id="move_left">
+								<div id="btn_left" style='background-image: url("{{ STATIC_URL }}img/btn_left.png")'></div>
+							</div>
+						</div>
+						
+						<div class="movebutton"><div id="toggle_map"><div id="btn_map"></div></div></div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	
-	<div id="controlpanel">
-		<div id="servlog">
-			Here is where server messages not related to the chat will be.
-		</div>
-		
-		<div id="controller">
-			Control Box
-			
-			<div id="controlui">
-				<div class="movebutton"><div id="move_up"><div id="btn_up">
-					<img src="{{ STATIC_URL }}img/btn_up.png" alt="button up" />
-				</div></div></div>
-				<div class="movebutton"><div id="move_right"><div id="btn_right">
-					<img src="{{ STATIC_URL }}img/btn_right.png" alt="button up" />
-				</div></div></div>
-				<div class="movebutton"><div id="move_down"><div id="btn_down">
-					<img src="{{ STATIC_URL }}img/btn_down.png" alt="button up" />
-				</div></div></div>
-				<div class="movebutton"><div id="move_left"><div id="btn_left">
-					<img src="{{ STATIC_URL }}img/btn_left.png" alt="button up" />
-				</div></div></div>
-				<div class="movebutton"><div id="toggle_map"><div id="btn_map"></div></div></div>
-			</div>
-		</div>
+{% endblock %}
+
+{% block footerextras %}
+	<div id="logoutform">
+		<form method ="post" action="logout">{% csrf_token %}
+			<input type="submit" name="logout" value="Logout" /></button>
+		</form>
 	</div>
 {% endblock %}

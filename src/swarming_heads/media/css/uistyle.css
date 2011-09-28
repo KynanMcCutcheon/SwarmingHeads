@@ -1,9 +1,23 @@
+/*panel centering classes*/
+
+.panel_offset {
+	width: 100%;
+	position: relative;
+	left: 50%;
+}
+
+.panel_rebalance {
+	width: 1000px;
+	overflow: visible;
+}
+
 /*Main two panels*/
 
 #viewpanel, #controlpanel {
-	height: 600px;
+	min-height: 600px;
+	height: 100%;
 	position: relative;
-	left: 50px;
+	right: 50%;
 }
 
 #viewpanel {
@@ -11,15 +25,13 @@
 	width: 650px;
 	margin: 0px auto;
 	overflow: hidden;
-	background-color: #FFE5E5;
 	font-size: 90%;
 }
 
 #controlpanel {
 	float: left;
-	width: 250px;
+	width: 350px;
 	margin: 0px auto;
-	background-color: #E5FFE5;
 	overflow: hidden;
 	font-family: 'arial';
 	font-size: 90%;
@@ -35,7 +47,7 @@
 	border-right: 2px solid #555555;
 	border-bottom: none;
 	border-left: 2px solid #555555;
-	overflow: hidden;
+	background-color: #AAAAAA;
 }
 
 #chatbox {
@@ -46,6 +58,10 @@
 	padding: 2px;
 	background-color: #555555;
 	color: #FFFFFF;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-left-radius: 15px;
 }
 
 /*Child panels of controlpanel*/
@@ -71,6 +87,17 @@
 	background-color: #555555;
 	color: #FFFFFF;
 	text-align: center;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-left-radius: 15px;
+	
+	/* Cross platform way to stop annoying highlighting when clicking buttons */
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 
 /*Child panels of viewport*/
@@ -136,12 +163,13 @@
 
 #shoutbox {
 	width: auto;
-	height: auto;
+	height: 67px;
 	margin: 0px 2px 2px 2px;
 	background-color: #555555;
 	color: #FFFFFF;
 	border: 2px solid #555555;
 	text-align: center;
+	overflow: hidden;
 }
 
 #shoutbox textarea {
@@ -151,6 +179,8 @@
 	text-align: left;
 	resize: none;/*specific to some browsers*/
 	font-family: 'arial';
+	outline: none;
+	border: none;
 }
 
 #send_shout_div {
@@ -184,11 +214,10 @@
 	position: relative;
 }
 
-#move_up, #move_right, #move_down, #move_left, #toggle_map {
+#move_up, #move_right, #move_down, #move_left, #toggle_map, #toggle_chat {
 	width: 100%;
 	height: 100%;
 	position: relative;
-	background-color: #888888;
 }
 
 #move_up {
@@ -213,33 +242,43 @@
 	left: 100%;
 }
 
-#btn_up, #btn_right, #btn_down, #btn_left, #btn_map {
+#toggle_chat {
+	bottom: 120%;
+	right: 400%;
+}
+
+#btn_up, #btn_right, #btn_down, #btn_left, #btn_map, #btn_chat {
 	position: relative;
 	width: 50px;
 	height: 50px;
-	background-color: #666666;
+	background-color: #888888;
 	left: 2px;
 	top: 2px;
 }
 
 #btn_up {
-	/*background-image:url('static/img/btn_up.png');*/
+	background-image:url('../img/btn_up.png');
 }
 
 #btn_right {
-	/*background-image:url('static/img/btn_right.png');*/
+	background-image:url('../img/btn_right.png');
 }
 
 #btn_down {
-	/*background-image:url('static/img/btn_down.png');*/
+	background-image:url('../img/btn_down.png');
 }
 
 #btn_left {
-	/*background-image:url('static/img/btn_left.png');*/
+	background-image:url('../img/btn_left.png');
 }
 
 #btn_map{
-	/*background-image:url('img/btn_map.png');*/
+	/*background-image:url('../img/btn_map.png');*/
+	background-color: #AAAAFF;
+}
+
+#btn_chat{
+	/*background-image:url('../img/btn_chat.png');*/
 	background-color: #AAAAFF;
 }
 
