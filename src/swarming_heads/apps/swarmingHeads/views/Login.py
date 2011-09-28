@@ -1,7 +1,7 @@
 '''
 Created on Sep 9, 2011
 '''
-from django.http import HttpResponse, HttpResponseRedirect
+from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from swarming_heads.apps.swarmingHeads.forms import LoginForm
